@@ -1,0 +1,93 @@
+<!doctype html>
+
+<!-- ASSIGN OUR ANGULAR MODULE -->
+<html ng-app="meanMap">
+    <head>
+        <!-- META -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Optimize mobile viewport -->
+
+        <title>Knowledge Map</title>
+
+        <!-- SCROLLS -->
+        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"><!-- load bootstrap -->
+        <style>
+            html 					{ overflow-y:scroll; }
+            body 					{ padding-top:50px; }
+            #map-list 				{ margin-bottom:30px; }
+            #node-form 	 			{ margin-bottom:50px; }
+        </style>
+
+        <!-- SPELLS -->
+        <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.4/angular.min.js"></script><!-- load angular 1.2.4 -->
+
+        <script src="../js/controllers/mapController.js"></script> <!-- load up our controller -->
+        <script src="../js/services/mapServices.js"></script> <!-- load our todo service -->
+        <script src="../js/mapInjector.js"></script> <!-- load our main application -->
+
+    </head>
+    <!-- SET THE CONTROLLER -->
+    <body ng-controller="mainController">
+        <div class="container">
+
+            <!-- HEADER AND NODE COUNT -->
+            <div class="jumbotron text-center">
+                <h1>Nodes in Knowledge Map: <span class="label label-info">{{ map.length }}</span></h1>
+            </div>
+
+            <!-- MAP LIST -->
+            <div id="map-list" class="row">
+                <div class="col-sm-4 col-sm-offset-4">
+
+                    <div>
+                        <label class="checkbox">
+                            <input type="checkbox"><span class="label label-default">Title</span></input>
+                        </label>
+
+                    <label>
+                        <span class="label label-primary">Children</span>
+                        <span class="label label-success">Parents</span>
+                    </label>
+                    
+                    <hr>
+                    <hr>
+
+                </div>
+                    <!-- LOOP OVER THE NODES IN $scope.map -->
+                    <div class="nodeDisplay" ng-repeat="node in map">
+                        <label class="checkbox">
+                            <input type="checkbox" ng-click="deleteNode(node._id)"><span class="label label-default">{{ node.title }}</span></input>
+                        </label>
+                    
+                        <label>
+                            <span class="label label-primary">{{ node.children }}</span>
+                            <span class="label label-success">{{ node.parents }}</span>
+                        </label>
+                    
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- FORM TO CREATE NODES -->
+            <div id="node-form" class="row">
+                <div class="col-sm-8 col-sm-offset-2 text-center">
+                    <form name="inputForm">
+                        <div class="form-group">
+
+                            <!-- BIND THIS VALUE TO formData.text IN ANGULAR -->
+                            <input type="text" class="form-control input-lg text-center" placeholder="Name of the Node" ng-model="formData.title" name="title">
+                            <input type="text" class="form-control input-lg text-center" placeholder="Children (comma sperated)" ng-model="formData.children">
+                            <input type="text" class="form-control input-lg text-center" placeholder="Parents (comma seperated)" ng-model="formData.parents">
+                        </div>
+
+                        <!-- createNode() WILL CREATE NEW NODE -->
+                        <button type="submit" class="btn btn-primary btn-lg" ng-click="createNode()" Onclick="document.inputForm.title.focus();">Add</button>
+                    </form>
+                </div>
+            </div>
+
+            </div>
+
+    </body>
+</html>
