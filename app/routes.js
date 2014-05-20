@@ -15,15 +15,19 @@ module.exports = function (app, passport) {
     // =====================================
     // show the login form
     app.get('/login', function (req, res) {
-
+		
+		if(req.isAuthenticated()){
+			res.redirect('/smdux1/profile');
+		}else{		
         // render the page and pass in any flash data if it exists
         res.sendfile('./public/views/login.html');
+		}
     });
 
     // process the login form
     app.post('/login', passport.authenticate('local-login', {
-        successRedirect: '/profile', // redirect to the secure profile section
-        failureRedirect: '/login', // redirect back to the signup page if there is an error
+        successRedirect: '/smdux1/profile', // redirect to the secure profile section
+        failureRedirect: '/smdux1/login', // redirect back to the signup page if there is an error
         }));
 
     // =====================================
@@ -38,8 +42,8 @@ module.exports = function (app, passport) {
 
     // process the signup form
     app.post('/signup', passport.authenticate('local-signup', {
-        successRedirect: '/profile', // redirect to the secure profile section
-        failureRedirect: '/signup', // redirect back to the signup page if there is an error
+        successRedirect: '/smdux1/profile', // redirect to the secure profile section
+        failureRedirect: '/smdux1/signup', // redirect back to the signup page if there is an error
         }));
 
     // =====================================
@@ -56,7 +60,7 @@ module.exports = function (app, passport) {
     // =====================================
     app.get('/logout', function (req, res) {
         req.logout();
-        res.redirect('/');
+        res.redirect('/smdux1/');
     });
 
 
@@ -82,7 +86,7 @@ module.exports = function (app, passport) {
         res.sendfile('./public/views/map.html');
     });
 
-    // get all todos
+    // get all nodes
     app.get('/api/map', function (req, res) {
 
 
@@ -152,5 +156,5 @@ function isLoggedIn(req, res, next) {
         return next();
 
     // if they aren't redirect them to the login page
-    res.redirect('/login');
+    res.redirect('/smdux1/login');
 }

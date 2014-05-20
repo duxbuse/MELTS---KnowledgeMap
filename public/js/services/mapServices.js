@@ -5,13 +5,13 @@ angular.module('mapService', [])
 .factory('map', function($http) {
     return {
         get : function() {
-            return $http.get('/api/map');
+            return $http.get('/smdux1/api/map');
         },
         create : function(mapData) {
-            return $http.post('/api/map', mapData);
+            return $http.post('/smdux1/api/map', mapData);
         },
         delete : function(id) {
-        return $http.delete('/api/map/' + id);
+        return $http.delete('/smdux1/api/map/' + id);
     }
 }
          });

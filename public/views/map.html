@@ -1,6 +1,6 @@
 <!doctype html>
 
-<!-- ASSIGN OUR ANGULAR MODULE -->
+<!-- ASSIGN OUR ANGULAR MODULE-->
 <html ng-app="meanMap">
     <head>
         <!-- META -->
@@ -21,9 +21,9 @@
         <!-- SPELLS -->
         <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.4/angular.min.js"></script><!-- load angular 1.2.4 -->
 
-        <script src="../js/controllers/mapController.js"></script> <!-- load up our controller -->
-        <script src="../js/services/mapServices.js"></script> <!-- load our todo service -->
-        <script src="../js/mapInjector.js"></script> <!-- load our main application -->
+        <script src="/smdux1/js/controllers/mapController.js"></script> <!-- load up our controller -->
+        <script src="/smdux1/js/services/mapServices.js"></script> <!-- load our todo service -->
+        <script src="/smdux1/js/mapInjector.js"></script> <!-- load our main application -->
 
     </head>
     <!-- SET THE CONTROLLER -->
@@ -76,7 +76,7 @@
                         <div class="form-group">
 
                             <!-- BIND THIS VALUE TO formData.text IN ANGULAR -->
-                            <input type="text" class="form-control input-lg text-center" placeholder="Name of the Node" ng-model="formData.title" name="title">
+                            <input type="text" class="form-control input-lg text-center" placeholder="Title" ng-model="formData.title" name="title">
                             <input type="text" class="form-control input-lg text-center" placeholder="Children (comma sperated)" ng-model="formData.children">
                             <input type="text" class="form-control input-lg text-center" placeholder="Parents (comma seperated)" ng-model="formData.parents">
                         </div>
