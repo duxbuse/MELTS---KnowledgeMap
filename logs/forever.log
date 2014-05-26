@@ -58,3 +58,7 @@ Connected to Mongoose DB
 [90mGET /api/map [32m200 [90m3ms - 210b[0m
 [90mGET /map [32m200 [90m8ms - 3.88kb[0m
 [90mGET /api/map [36m304 [90m6ms[0m
+[90mGET /map [36m304 [90m9ms[0m
+[90mGET /api/map [36m304 [90m5ms[0m
+[90mGET /map [32m200 [90m5ms - 3.87kb[0m
+[90mGET /api/map [36m304 [90m5ms[0m
