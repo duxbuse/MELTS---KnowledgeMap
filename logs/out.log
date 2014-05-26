@@ -1,0 +1,60 @@
+26 May 20:38:43 - [33m[nodemon] v1.0.20[39m
+26 May 20:38:43 - [33m[nodemon] to restart at any time, enter `rs`[39m
+26 May 20:38:43 - [33m[nodemon] watching: *.*[39m
+26 May 20:38:43 - [32m[nodemon] starting `node /srv/home/smdux1/MELTS---KnowlegdeMap/server.js`[39m
+App listening on 130.194.20.158:8000
+Connected to Mongoose DB
+[90mPOST /api/map [32m200 [90m66ms - 1.14kb[0m
+[90mGET / [36m304 [90m8ms[0m
+[90mGET / [32m200 [90m8ms - 867b[0m
+[90mGET /map [36m302 [90m6ms - 82b[0m
+[90mGET /login [32m200 [90m4ms - 1.63kb[0m
+[90mPOST /login [36m302 [90m97ms - 86b[0m
+[90mGET /profile [36m304 [90m4ms[0m
+[90mGET /map [32m200 [90m3ms - 3.87kb[0m
+[90mGET /api/map [32m200 [90m7ms - 1.14kb[0m
+[90mDELETE /api/map/538319c3489d654607489ec2 [32m200 [90m13ms - 964b[0m
+[90mPOST /api/map [32m200 [90m10ms - 1.1kb[0m
+26 May 20:44:18 - [33m[nodemon] v1.0.20[39m
+26 May 20:44:18 - [33m[nodemon] to restart at any time, enter `rs`[39m
+26 May 20:44:18 - [33m[nodemon] watching: *.*[39m
+26 May 20:44:18 - [32m[nodemon] starting `node /srv/home/smdux1/MELTS---KnowlegdeMap/server.js`[39m
+App listening on 130.194.20.158:8000
+Connected to Mongoose DB
+[90mGET / [32m200 [90m20ms - 867b[0m
+[90mGET /login [32m200 [90m8ms - 1.63kb[0m
+[90mGET /map [36m302 [90m9ms - 82b[0m
+[90mGET /login [36m304 [90m4ms[0m
+[90mGET /signup [32m200 [90m3ms - 1.64kb[0m
+[90mPOST /signup [36m302 [90m194ms - 86b[0m
+[90mGET /profile [32m200 [90m9ms - 1.45kb[0m
+[90mGET /map [32m200 [90m5ms - 3.87kb[0m
+[90mGET /api/map [32m200 [90m13ms - 1.1kb[0m
+[90mDELETE /api/map/53831620a26acd640640bec1 [32m200 [90m14ms - 964b[0m
+[90mDELETE /api/map/53814b6243c44e5656b9573e [32m200 [90m7ms - 711b[0m
+[90mDELETE /api/map/53831627a26acd640640bec2 [32m200 [90m9ms - 524b[0m
+[90mDELETE /api/map/538318aaf2563202079e1929 [32m200 [90m5ms - 357b[0m
+[90mDELETE /api/map/538319d2489d654607489ec3 [32m200 [90m42ms - 190b[0m
+[90mDELETE /api/map/538319d2489d654607489ec3 [32m200 [90m15ms - 190b[0m
+[90mDELETE /api/map/53814b2143c44e5656b9573c [32m200 [90m4ms - 2b[0m
+[90mGET /map [36m302 [90m4ms - 82b[0m
+[90mGET /login [36m304 [90m3ms[0m
+[90mPOST /login [36m302 [90m158ms - 86b[0m
+[90mGET /profile [36m304 [90m4ms[0m
+[90mGET /map [32m200 [90m6ms - 3.87kb[0m
+[90mGET /api/map [32m200 [90m5ms - 2b[0m
+[90mPOST /api/map [32m200 [90m8ms - 210b[0m
+[90mGET /map [32m200 [90m4ms - 3.9kb[0m
+[90mGET /api/map [32m200 [90m4ms - 210b[0m
+[90mGET / [32m200 [90m5ms - 867b[0m
+[90mGET /login [36m302 [90m4ms - 86b[0m
+[90mGET /profile [32m200 [90m3ms - 1.45kb[0m
+[90mGET /map [32m200 [90m8ms - 3.9kb[0m
+[90mGET /api/map [32m200 [90m7ms - 210b[0m
+[90mGET /map [32m200 [90m7ms - 3.87kb[0m
+[90mGET /api/map [36m304 [90m5ms[0m
+[90mGET / [32m200 [90m4ms - 867b[0m
+[90mGET /map [32m200 [90m5ms - 3.87kb[0m
+[90mGET /api/map [32m200 [90m3ms - 210b[0m
+[90mGET /map [32m200 [90m8ms - 3.88kb[0m
+[90mGET /api/map [36m304 [90m6ms[0m
