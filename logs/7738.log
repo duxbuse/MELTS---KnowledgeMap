@@ -1,0 +1,189 @@
+3 Aug 16:08:18 - [33m[nodemon] v1.0.20[39m
+3 Aug 16:08:18 - [33m[nodemon] to restart at any time, enter `rs`[39m
+3 Aug 16:08:18 - [33m[nodemon] watching: *.*[39m
+3 Aug 16:08:18 - [32m[nodemon] starting `node /srv/home/smdux1/MELTS---KnowlegdeMap/server.js`[39m
+App listening on 130.194.20.158:8000
+Connected to Mongoose DB
+[90mGET /map [36m302 [90m21ms - 82b[0m
+[90mGET /login [32m200 [90m11ms - 1.63kb[0m
+[90mPOST /login [36m302 [90m176ms - 86b[0m
+[90mGET /profile [36m304 [90m8ms[0m
+[90mGET /map [32m200 [90m5ms - 3.58kb[0m
+[90mGET /api/map [36m304 [90m6ms[0m
+[90mGET http://www.sciencedirect.com/science/journal/00404020/51 [33m404 [90m1ms[0m
+[90mGET http://www.sina.com.cn/ [32m200 [90m3ms - 867b[0m
+[90mGET / [32m200 [90m5ms - 867b[0m
+[90mGET / [32m200 [90m9ms - 867b[0m
+[90mGET / [32m200 [90m9ms - 867b[0m
+[90mGET / [32m200 [90m6ms - 867b[0m
+[90mGET / [32m200 [90m2ms - 867b[0m
+[90mGET / [32m200 [90m8ms - 867b[0m
+[90mGET / [32m200 [90m10ms - 867b[0m
+[90mGET / [32m200 [90m3ms - 867b[0m
+[90mGET / [32m200 [90m2ms - 867b[0m
+[90mGET /login.html [33m404 [90m2ms[0m
+[90mGET / [32m200 [90m1ms - 867b[0m
+[90mGET / [32m200 [90m2ms - 867b[0m
+[90mGET / [32m200 [90m2ms - 867b[0m
+[90mGET / [32m200 [90m2ms - 867b[0m
+[90mGET /properties/description.dhtml [33m404 [90m1ms[0m
+[90mGET /MSWSMTP/Common/Authentication/Logon.aspx [33m404 [90m1ms[0m
+[90mGET /header.php?tab=status [33m404 [90m0ms[0m
+[90mGET /properties/configuration.php?tab=Status [33m404 [90m1ms[0m
+[90mGET / [32m200 [90m3ms - 867b[0m
+[90mGET / [32m200 [90m2ms - 867b[0m
+[90mGET / [32m200 [90m8ms - 867b[0m
+[90mGET /commoncgi/servlet/CCGIServlet?ApHost=PDT_InterScan_NT&CGIAlias=PDT_InterScan_NT&File=logout.htm [33m404 [90m0ms[0m
+[90mGET / [32m200 [90m1ms - 867b[0m
+[90mGET /intruvert/jsp/admin/Login.jsp [33m404 [90m1ms[0m
+[90mGET // [32m200 [90m2ms - 867b[0m
+[90mGET /Home.do [33m404 [90m0ms[0m
+[90mGET / [32m200 [90m4ms - 867b[0m
+[90mGET / [32m200 [90m2ms - 867b[0m
+[90mGET /xmldata?item=All [33m404 [90m1ms[0m
+[90mGET / [32m200 [90m5ms - 867b[0m
+[90mGET / [32m200 [90m3ms - 867b[0m
+[90mGET / [32m200 [90m2ms - 867b[0m
+[90mGET / [32m200 [90m2ms - 867b[0m
+[90mGET / [32m200 [90m2ms - 867b[0m
+[90mGET / [32m200 [90m2ms - 867b[0m
+[90mGET /robots.txt [33m404 [90m1ms[0m
+[90mGET /sitemap.xml [33m404 [90m1ms[0m
+[90mGET /.cobalt [33m404 [90m1ms[0m
+[90mGET /admin.back [33m404 [90m1ms[0m
+[90mGET /file [33m404 [90m1ms[0m
+[90mGET /wavemaster.internal [33m404 [90m1ms[0m
+[90mGET / [32m200 [90m1ms - 867b[0m
+[90mGET / [32m200 [90m1ms - 867b[0m
+[90mGET /ZAKCCwRXYc5w.html [33m404 [90m1ms[0m
+[90mGET /ZAKCCwRXYc5w.cgi [33m404 [90m1ms[0m
+[90mGET /ZAKCCwRXYc5w.sh [33m404 [90m1ms[0m
+[90mGET /ZAKCCwRXYc5w.pl [33m404 [90m1ms[0m
+[90mGET /ZAKCCwRXYc5w.inc [33m404 [90m0ms[0m
+[90mGET /ZAKCCwRXYc5w.shtml [33m404 [90m0ms[0m
+[90mGET /ZAKCCwRXYc5w.asp [33m404 [90m1ms[0m
+[90mGET /ZAKCCwRXYc5w.php [33m404 [90m1ms[0m
+[90mGET /ZAKCCwRXYc5w.php3 [33m404 [90m1ms[0m
+[90mGET /ZAKCCwRXYc5w.cfm [33m404 [90m1ms[0m
+[90mGET /cgi-bin/ZAKCCwRXYc5w.html [33m404 [90m0ms[0m
+[90mGET /cgi-bin/ZAKCCwRXYc5w.cgi [33m404 [90m0ms[0m
+[90mGET /cgi-bin/ZAKCCwRXYc5w.sh [33m404 [90m1ms[0m
+[90mGET /cgi-bin/ZAKCCwRXYc5w.pl [33m404 [90m1ms[0m
+[90mGET /cgi-bin/ZAKCCwRXYc5w.inc [33m404 [90m2ms[0m
+[90mGET /cgi-bin/ZAKCCwRXYc5w.shtml [33m404 [90m0ms[0m
+[90mGET /cgi-bin/ZAKCCwRXYc5w.asp [33m404 [90m1ms[0m
+[90mGET /cgi-bin/ZAKCCwRXYc5w.php [33m404 [90m1ms[0m
+[90mGET /cgi-bin/ZAKCCwRXYc5w.php3 [33m404 [90m1ms[0m
+[90mGET /cgi-bin/ZAKCCwRXYc5w.cfm [33m404 [90m0ms[0m
+[90mGET /scripts/ZAKCCwRXYc5w.html [33m404 [90m2ms[0m
+[90mGET /scripts/ZAKCCwRXYc5w.cgi [33m404 [90m1ms[0m
+[90mGET /scripts/ZAKCCwRXYc5w.sh [33m404 [90m1ms[0m
+[90mGET /scripts/ZAKCCwRXYc5w.pl [33m404 [90m0ms[0m
+[90mGET /scripts/ZAKCCwRXYc5w.inc [33m404 [90m0ms[0m
+[90mGET /scripts/ZAKCCwRXYc5w.shtml [33m404 [90m1ms[0m
+[90mGET /scripts/ZAKCCwRXYc5w.asp [33m404 [90m1ms[0m
+[90mGET /scripts/ZAKCCwRXYc5w.php [33m404 [90m1ms[0m
+[90mGET /scripts/ZAKCCwRXYc5w.php3 [33m404 [90m0ms[0m
+[90mGET /scripts/ZAKCCwRXYc5w.cfm [33m404 [90m1ms[0m
+[90mGET / [32m200 [90m1ms - 867b[0m
+[90mGET http://www.sciencedirect.com/ [32m200 [90m3ms - 867b[0m
+[90mGET http://www.metapress.com/home/main.mpx [33m404 [90m1ms[0m
+[90mGET / [32m200 [90m30ms - 867b[0m
+[90mGET /map [36m302 [90m1ms - 82b[0m
+[90mGET /login [32m200 [90m32ms - 1.63kb[0m
+[90mPOST /login [36m302 [90m164ms - 86b[0m
+[90mGET /profile [32m200 [90m4ms - 1.45kb[0m
+[90mGET /map [32m200 [90m3ms - 3.58kb[0m
+[90mGET /api/map [32m200 [90m5ms - 2b[0m
+[90mGET /map [36m304 [90m3ms[0m
+[90mGET /api/map [36m304 [90m3ms[0m
+[90mGET /map [32m200 [90m4ms - 3.59kb[0m
+[90mGET /api/map [36m304 [90m4ms[0m
+7 Aug 14:38:51 - [32m[nodemon] restarting due to changes...[39m
+7 Aug 14:38:51 - [32m[nodemon] starting `node /srv/home/smdux1/MELTS---KnowlegdeMap/server.js`[39m
+App listening on 130.194.20.158:8000
+Connected to Mongoose DB
+7 Aug 14:40:26 - [32m[nodemon] restarting due to changes...[39m
+7 Aug 14:40:26 - [32m[nodemon] starting `node /srv/home/smdux1/MELTS---KnowlegdeMap/server.js`[39m
+App listening on 130.194.20.158:8000
+Connected to Mongoose DB
+[90mGET /map [36m302 [90m26ms - 82b[0m
+[90mGET /login [32m200 [90m13ms - 1.63kb[0m
+[90mPOST /login [36m302 [90m181ms - 86b[0m
+[90mGET /profile [36m304 [90m9ms[0m
+[90mGET /map [32m200 [90m5ms - 3.42kb[0m
+[90mGET /api/map [36m304 [90m8ms[0m
+[90mGET /map [32m200 [90m5ms - 3.39kb[0m
+[90mGET /api/map [36m304 [90m4ms[0m
+TypeError: Cannot call method 'split' of undefined
+    at /srv/home/smdux1/MELTS---KnowlegdeMap/app/routes.js:112:45
+    at callbacks (/srv/home/smdux1/MELTS---KnowlegdeMap/node_modules/express/lib/router/index.js:164:37)
+    at param (/srv/home/smdux1/MELTS---KnowlegdeMap/node_modules/express/lib/router/index.js:138:11)
+    at pass (/srv/home/smdux1/MELTS---KnowlegdeMap/node_modules/express/lib/router/index.js:145:5)
+    at Router._dispatch (/srv/home/smdux1/MELTS---KnowlegdeMap/node_modules/express/lib/router/index.js:173:5)
+    at Object.router (/srv/home/smdux1/MELTS---KnowlegdeMap/node_modules/express/lib/router/index.js:33:10)
+    at Context.next (/srv/home/smdux1/MELTS---KnowlegdeMap/node_modules/express/node_modules/connect/lib/proto.js:193:15)
+    at Context.actions.pass (/srv/home/smdux1/MELTS---KnowlegdeMap/node_modules/passport/lib/passport/context/http/actions.js:77:8)
+    at /srv/home/smdux1/MELTS---KnowlegdeMap/node_modules/passport/lib/passport/strategies/session.js:61:12
+    at pass (/srv/home/smdux1/MELTS---KnowlegdeMap/node_modules/passport/lib/passport/index.js:321:31)
+[90mPOST /api/map [31m500 [90m12ms - 1.08kb[0m
+TypeError: Cannot call method 'split' of undefined
+    at /srv/home/smdux1/MELTS---KnowlegdeMap/app/routes.js:112:45
+    at callbacks (/srv/home/smdux1/MELTS---KnowlegdeMap/node_modules/express/lib/router/index.js:164:37)
+    at param (/srv/home/smdux1/MELTS---KnowlegdeMap/node_modules/express/lib/router/index.js:138:11)
+    at pass (/srv/home/smdux1/MELTS---KnowlegdeMap/node_modules/express/lib/router/index.js:145:5)
+    at Router._dispatch (/srv/home/smdux1/MELTS---KnowlegdeMap/node_modules/express/lib/router/index.js:173:5)
+    at Object.router (/srv/home/smdux1/MELTS---KnowlegdeMap/node_modules/express/lib/router/index.js:33:10)
+    at Context.next (/srv/home/smdux1/MELTS---KnowlegdeMap/node_modules/express/node_modules/connect/lib/proto.js:193:15)
+    at Context.actions.pass (/srv/home/smdux1/MELTS---KnowlegdeMap/node_modules/passport/lib/passport/context/http/actions.js:77:8)
+    at /srv/home/smdux1/MELTS---KnowlegdeMap/node_modules/passport/lib/passport/strategies/session.js:61:12
+    at pass (/srv/home/smdux1/MELTS---KnowlegdeMap/node_modules/passport/lib/passport/index.js:321:31)
+[90mPOST /api/map [31m500 [90m9ms - 1.08kb[0m
+TypeError: Cannot call method 'split' of undefined
+    at /srv/home/smdux1/MELTS---KnowlegdeMap/app/routes.js:112:45
+    at callbacks (/srv/home/smdux1/MELTS---KnowlegdeMap/node_modules/express/lib/router/index.js:164:37)
+    at param (/srv/home/smdux1/MELTS---KnowlegdeMap/node_modules/express/lib/router/index.js:138:11)
+    at pass (/srv/home/smdux1/MELTS---KnowlegdeMap/node_modules/express/lib/router/index.js:145:5)
+    at Router._dispatch (/srv/home/smdux1/MELTS---KnowlegdeMap/node_modules/express/lib/router/index.js:173:5)
+    at Object.router (/srv/home/smdux1/MELTS---KnowlegdeMap/node_modules/express/lib/router/index.js:33:10)
+    at Context.next (/srv/home/smdux1/MELTS---KnowlegdeMap/node_modules/express/node_modules/connect/lib/proto.js:193:15)
+    at Context.actions.pass (/srv/home/smdux1/MELTS---KnowlegdeMap/node_modules/passport/lib/passport/context/http/actions.js:77:8)
+    at /srv/home/smdux1/MELTS---KnowlegdeMap/node_modules/passport/lib/passport/strategies/session.js:61:12
+    at pass (/srv/home/smdux1/MELTS---KnowlegdeMap/node_modules/passport/lib/passport/index.js:321:31)
+[90mPOST /api/map [31m500 [90m5ms - 1.08kb[0m
+TypeError: Cannot call method 'split' of undefined
+    at /srv/home/smdux1/MELTS---KnowlegdeMap/app/routes.js:112:45
+    at callbacks (/srv/home/smdux1/MELTS---KnowlegdeMap/node_modules/express/lib/router/index.js:164:37)
+    at param (/srv/home/smdux1/MELTS---KnowlegdeMap/node_modules/express/lib/router/index.js:138:11)
+    at pass (/srv/home/smdux1/MELTS---KnowlegdeMap/node_modules/express/lib/router/index.js:145:5)
+    at Router._dispatch (/srv/home/smdux1/MELTS---KnowlegdeMap/node_modules/express/lib/router/index.js:173:5)
+    at Object.router (/srv/home/smdux1/MELTS---KnowlegdeMap/node_modules/express/lib/router/index.js:33:10)
+    at Context.next (/srv/home/smdux1/MELTS---KnowlegdeMap/node_modules/express/node_modules/connect/lib/proto.js:193:15)
+    at Context.actions.pass (/srv/home/smdux1/MELTS---KnowlegdeMap/node_modules/passport/lib/passport/context/http/actions.js:77:8)
+    at /srv/home/smdux1/MELTS---KnowlegdeMap/node_modules/passport/lib/passport/strategies/session.js:61:12
+    at pass (/srv/home/smdux1/MELTS---KnowlegdeMap/node_modules/passport/lib/passport/index.js:321:31)
+[90mPOST /api/map [31m500 [90m7ms - 1.08kb[0m
+TypeError: Cannot call method 'split' of undefined
+    at /srv/home/smdux1/MELTS---KnowlegdeMap/app/routes.js:112:45
+    at callbacks (/srv/home/smdux1/MELTS---KnowlegdeMap/node_modules/express/lib/router/index.js:164:37)
+    at param (/srv/home/smdux1/MELTS---KnowlegdeMap/node_modules/express/lib/router/index.js:138:11)
+    at pass (/srv/home/smdux1/MELTS---KnowlegdeMap/node_modules/express/lib/router/index.js:145:5)
+    at Router._dispatch (/srv/home/smdux1/MELTS---KnowlegdeMap/node_modules/express/lib/router/index.js:173:5)
+    at Object.router (/srv/home/smdux1/MELTS---KnowlegdeMap/node_modules/express/lib/router/index.js:33:10)
+    at Context.next (/srv/home/smdux1/MELTS---KnowlegdeMap/node_modules/express/node_modules/connect/lib/proto.js:193:15)
+    at Context.actions.pass (/srv/home/smdux1/MELTS---KnowlegdeMap/node_modules/passport/lib/passport/context/http/actions.js:77:8)
+    at /srv/home/smdux1/MELTS---KnowlegdeMap/node_modules/passport/lib/passport/strategies/session.js:61:12
+    at pass (/srv/home/smdux1/MELTS---KnowlegdeMap/node_modules/passport/lib/passport/index.js:321:31)
+[90mPOST /api/map [31m500 [90m7ms - 1.08kb[0m
+TypeError: Cannot call method 'split' of undefined
+    at /srv/home/smdux1/MELTS---KnowlegdeMap/app/routes.js:112:45
+    at callbacks (/srv/home/smdux1/MELTS---KnowlegdeMap/node_modules/express/lib/router/index.js:164:37)
+    at param (/srv/home/smdux1/MELTS---KnowlegdeMap/node_modules/express/lib/router/index.js:138:11)
+    at pass (/srv/home/smdux1/MELTS---KnowlegdeMap/node_modules/express/lib/router/index.js:145:5)
+    at Router._dispatch (/srv/home/smdux1/MELTS---KnowlegdeMap/node_modules/express/lib/router/index.js:173:5)
+    at Object.router (/srv/home/smdux1/MELTS---KnowlegdeMap/node_modules/express/lib/router/index.js:33:10)
+    at Context.next (/srv/home/smdux1/MELTS---KnowlegdeMap/node_modules/express/node_modules/connect/lib/proto.js:193:15)
+    at Context.actions.pass (/srv/home/smdux1/MELTS---KnowlegdeMap/node_modules/passport/lib/passport/context/http/actions.js:77:8)
+    at /srv/home/smdux1/MELTS---KnowlegdeMap/node_modules/passport/lib/passport/strategies/session.js:61:12
+    at pass (/srv/home/smdux1/MELTS---KnowlegdeMap/node_modules/passport/lib/passport/index.js:321:31)
+[90mPOST /api/map [31m500 [90m7ms - 1.08kb[0m
