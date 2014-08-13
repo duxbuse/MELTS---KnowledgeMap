@@ -2,8 +2,7 @@
 var mongoose = require('mongoose');
 
 module.exports = mongoose.model('node', {
-    title : String,
-    children : Array,
-    parents : Array,
-    done : Boolean
+    data: {title: String, unit: String},
+    links: [{ source: String, target: String }],
+    done: Boolean
 });

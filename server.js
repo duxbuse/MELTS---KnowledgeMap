@@ -45,5 +45,3 @@ var server = app.listen(port, '130.194.20.158', function(){//130.194.20.158
 	console.log("App listening on " + server.address().address + ":" + port);
 });
 
-//try to figure out how to use forever and nodemon to make dev easier.
-//http://stackoverflow.com/questions/16369018/forever-nodemon-running-together

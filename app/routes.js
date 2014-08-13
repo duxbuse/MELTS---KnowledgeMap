@@ -82,7 +82,7 @@ module.exports = function (app, passport) {
     //================================================================================================================================
     
     
-    app.get('/map', isLoggedIn, function (req, res) {
+    app.get('/map', /*isLoggedIn,*/ function (req, res) {
         res.sendfile('./public/views/map.html');
     });
 
@@ -91,42 +91,50 @@ module.exports = function (app, passport) {
 
 
 
-        // use mongoose to get all todos in the database
+        // use mongoose to get all nodes in the database
         map.find(function (err, nodes) {
 
             // if there is an error retrieving, send the error. nothing after res.send(err) will execute
             if (err)
                 res.send(err)
 
-            res.json(nodes); // return all todos in JSON format
+            res.json(nodes); // return all nodes in JSON format
 
         });
     });
 
-    // create todo and send back all todos after creation
+    // create map and send back all nodes after creation
     app.post('/api/map', function (req, res) {
 
-        // create a todo, information comes from AJAX request from Angular
+		linkArray = [{}];
+	
+		req.body.prerequisites.split(',').forEach(function(element, index, array){
+			linkArray[index] = {source: req.body.title, target: element};
+		});
+	console.log(req.body);
+        // create a node, information comes from AJAX request from Angular
         map.create({
-            title: req.body.title,
-            children: req.body.children.split(','),//split makes each string sperated by commas
-            parents: req.body.parents.split(','),
+            data: {title: req.body.title, unit: req.body.unit},
+            links: linkArray,
             done: false
         }, function (err, node) {
-            if (err)
+            if (err){
+				console.log(err);
                 res.send(err);
+			}
 
-            // get and return all the todos after you create another
+            // get and return all the nodes after you create another
             map.find(function (err, nodes) {
-                if (err)
+                if (err){
                     res.send(err)
+				}
                     res.json(nodes);
             });
         });
 
     });
 
-    // delete a todo
+    // delete a node
     app.delete('/api/map/:node_id', function (req, res) {
         map.remove({
             _id: req.params.node_id
@@ -134,7 +142,7 @@ module.exports = function (app, passport) {
             if (err)
                 res.send(err);
 
-            // get and return all the todos after you create another
+            // get and return all the nodes after you create another
             map.find(function (err, nodes) {
                 if (err)
                     res.send(err)
@@ -148,7 +156,7 @@ module.exports = function (app, passport) {
 };
 
 
-// route middleware to make sure
+// route middle ware to make sure
 function isLoggedIn(req, res, next) {
 
     // if user is authenticated in the session, carry on

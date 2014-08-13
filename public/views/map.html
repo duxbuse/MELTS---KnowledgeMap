@@ -9,26 +9,53 @@
 
         <title>MeLTS - Knowledge Map</title>
 
-        <!-- SCROLLS -->
-        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"><!-- load bootstrap -->
-        <style>
-            html 					{ overflow-y:scroll; }
-            body 					{ padding-top:50px; }
-            #map-list 				{ margin-bottom:30px; }
-            #node-form 	 			{ margin-bottom:50px; }
-        </style>
-
-        <!-- SPELLS -->
-        <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.4/angular.min.js"></script><!-- load angular 1.2.4 -->
+        <!-- Libraries -->
+        <script src="/smdux1/js/angular/angular.min.js"></script>
+		<script src="/smdux1/js/d3/d3.js"></script>
+		<link rel="stylesheet" href="/smdux1/css/bootstrap.min.css">
 
         <script src="/smdux1/js/controllers/mapController.js"></script> <!-- load up our controller -->
-        <script src="/smdux1/js/services/mapServices.js"></script> <!-- load our todo service -->
+        <script src="/smdux1/js/services/mapServices.js"></script> <!-- load our map service -->
         <script src="/smdux1/js/mapInjector.js"></script> <!-- load our main application -->
+				
+		<style>
+
+		.graph {
+		  background-color: #ccffcc;
+		}
+
+		.link {
+		  stroke: #999;
+		  stroke-opacity: .6;
+		}
+
+		.node circle{
+		  stroke: #fff;
+		  stroke-width: 1.5px;
+		}
+
+		.node text {
+		  pointer-events: none;
+		  font: 10px sans-serif;
+		  
+		}
+
+		.wrapper {
+			width:100%;
+		}
+		
+		.container {
+			float="left";
+			
+		}
+		
+		</style>
 
     </head>
     <!-- SET THE CONTROLLER -->
-    <body ng-controller="mainController">
-        <div class="container">
+    <body>
+	<div class="wrapper">
+        <div ng-controller="mainController" class="container">
 
             <!-- HEADER AND NODE COUNT -->
             <div class="jumbotron text-center">
@@ -41,13 +68,14 @@
 
                     <div>
                         <label class="checkbox">
-                            <input type="checkbox"><span class="label label-default">Title</span></input>
+                            <input type="checkbox"><span class="label label-default">Example - Title</span>
+							<span class="label label-primary">Example - Unit</span>
+							</input>
                         </label>
 
-                    <label>
-                        <span class="label label-primary">Children</span>
-                        <span class="label label-success">Parents</span>
-                    </label>
+						<label>
+							<span class="label label-success">Example - Prerequisites</span>
+						</label>
                     
                     <hr>
                     <hr>
@@ -56,14 +84,16 @@
                     <!-- LOOP OVER THE NODES IN $scope.map -->
                     <div class="nodeDisplay" ng-repeat="node in map">
                         <label class="checkbox">
-                            <input type="checkbox" ng-click="deleteNode(node._id)"><span class="label label-default">{{ node.title }}</span></input>
+                            <input type="checkbox" ng-click="deleteNode(node._id)">
+							<span class="label label-default">{{ node.data.title }}</span>
+							<span class="label label-primary">{{ node.data.unit }}</span>
+							</input>
                         </label>
                     
-                        <label>
-                            <span class="label label-primary">{{ node.children }}</span>
-                            <span class="label label-success">{{ node.parents }}</span>
+						<label ng-repeat="link in node.links">
+                            <span class="label label-success"> {{link.target}} </span>
                         </label>
-                    
+
                     </div>
 
                 </div>
@@ -77,8 +107,8 @@
 
                             <!-- BIND THIS VALUE TO formData.text IN ANGULAR -->
                             <input type="text" class="form-control input-lg text-center" placeholder="Title" ng-model="formData.title" name="title">
-                            <input type="text" class="form-control input-lg text-center" placeholder="Children (comma sperated)" ng-model="formData.children">
-                            <input type="text" class="form-control input-lg text-center" placeholder="Parents (comma seperated)" ng-model="formData.parents">
+							 <input type="text" class="form-control input-lg text-center" placeholder="Unit" ng-model="formData.unit" name="unit">
+                            <input type="text" class="form-control input-lg text-center" placeholder="Prerequisites (comma seperated)" ng-model="formData.prerequisites">
                         </div>
 
                         <!-- createNode() WILL CREATE NEW NODE -->
@@ -87,7 +117,15 @@
                 </div>
             </div>
 
-            </div>
-
+        </div>
+		<div class="container">
+			<div class="graph">
+	
+			</div>
+			<!-- If the script is higher it runs before these elements are created. -->
+			<script src="/smdux1/js/graph.js"></script>
+		</div>
+		
+	</div>
     </body>
 </html>

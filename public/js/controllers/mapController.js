@@ -1,12 +1,12 @@
 angular.module('mapController', [])
 
-// inject the Todo service factory into our controller
+// inject the map service factory into our controller
 .controller('mainController', function($scope, $http, map) {
     $scope.formData = {};
 
     // GET =====================================================================
-    // when landing on the page, get all todos and show them
-    // use the service to get all the todos
+    // when landing on the page, get all nodes and show them
+    // use the service to get all the nodes
     map.get()
     .success(function(data) {
         $scope.map = data;
@@ -23,21 +23,21 @@ angular.module('mapController', [])
             // call the create function from our service (returns a promise object)
             map.create($scope.formData)
 
-            // if successful creation, call our get function to get all the new todos
+            // if successful creation, call our get function to get all the new nodes
             .success(function(data) {
                 $scope.formData = {}; // clear the form so our user is ready to enter another
-                $scope.map = data; // assign our new list of todos
+                $scope.map = data; // assign our new list of nodes
             });
         }
     };
 
     // DELETE ==================================================================
-    // delete a todo after checking it
+    // delete a node after checking it
     $scope.deleteNode = function(id) {
         map.delete(id)
-        // if successful creation, call our get function to get all the new todos
+        // if successful creation, call our get function to get all the new nodes
         .success(function(data) {
-            $scope.map = data; // assign our new list of todos
+            $scope.map = data; // assign our new list of nodes
         });
     };
 });
