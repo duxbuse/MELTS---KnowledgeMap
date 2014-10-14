@@ -1,131 +1,24 @@
-<!doctype html>
-
-<!-- ASSIGN OUR ANGULAR MODULE-->
-<html ng-app="meanMap">
-    <head>
-        <!-- META -->
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Optimize mobile viewport -->
-
-        <title>MeLTS - Knowledge Map</title>
-
-        <!-- Libraries -->
-        <script src="/smdux1/js/angular/angular.min.js"></script>
-		<script src="/smdux1/js/d3/d3.js"></script>
-		<link rel="stylesheet" href="/smdux1/css/bootstrap.min.css">
-
-        <script src="/smdux1/js/controllers/mapController.js"></script> <!-- load up our controller -->
-        <script src="/smdux1/js/services/mapServices.js"></script> <!-- load our map service -->
-        <script src="/smdux1/js/mapInjector.js"></script> <!-- load our main application -->
-				
-		<style>
-
-		.graph {
-		  background-color: #ccffcc;
-		}
-
-		.link {
-		  stroke: #999;
-		  stroke-opacity: .6;
-		}
-
-		.node circle{
-		  stroke: #fff;
-		  stroke-width: 1.5px;
-		}
-
-		.node text {
-		  pointer-events: none;
-		  font: 10px sans-serif;
-		  
-		}
-
-		.wrapper {
-			width:100%;
-		}
-		
-		.container {
-			float="left";
-			
-		}
-		
-		</style>
-
-    </head>
-    <!-- SET THE CONTROLLER -->
-    <body>
-	<div class="wrapper">
-        <div ng-controller="mainController" class="container">
-
-            <!-- HEADER AND NODE COUNT -->
-            <div class="jumbotron text-center">
-                <h1>Nodes in Knowledge Map: <span class="label label-info">{{ map.length }}</span></h1>
-            </div>
-
-            <!-- MAP LIST -->
-            <div id="map-list" class="row">
-                <div class="col-sm-4 col-sm-offset-4">
-
-                    <div>
-                        <label class="checkbox">
-                            <input type="checkbox"><span class="label label-default">Example - Title</span>
-							<span class="label label-primary">Example - Unit</span>
-							</input>
-                        </label>
-
-						<label>
-							<span class="label label-success">Example - Prerequisites</span>
-						</label>
-                    
-                    <hr>
-                    <hr>
-
-                </div>
-                    <!-- LOOP OVER THE NODES IN $scope.map -->
-                    <div class="nodeDisplay" ng-repeat="node in map">
-                        <label class="checkbox">
-                            <input type="checkbox" ng-click="deleteNode(node._id)">
-							<span class="label label-default">{{ node.data.title }}</span>
-							<span class="label label-primary">{{ node.data.unit }}</span>
-							</input>
-                        </label>
-                    
-						<label ng-repeat="link in node.links">
-                            <span class="label label-success"> {{link.target}} </span>
-                        </label>
-
-                    </div>
-
-                </div>
-            </div>
-
-            <!-- FORM TO CREATE NODES -->
-            <div id="node-form" class="row">
-                <div class="col-sm-8 col-sm-offset-2 text-center">
-                    <form name="inputForm">
-                        <div class="form-group">
-
-                            <!-- BIND THIS VALUE TO formData.text IN ANGULAR -->
-                            <input type="text" class="form-control input-lg text-center" placeholder="Title" ng-model="formData.title" name="title">
-							 <input type="text" class="form-control input-lg text-center" placeholder="Unit" ng-model="formData.unit" name="unit">
-                            <input type="text" class="form-control input-lg text-center" placeholder="Prerequisites (comma seperated)" ng-model="formData.prerequisites">
-                        </div>
-
-                        <!-- createNode() WILL CREATE NEW NODE -->
-                        <button type="submit" class="btn btn-primary btn-lg" ng-click="createNode()" Onclick="document.inputForm.title.focus();">Add</button>
-                    </form>
-                </div>
-            </div>
-
-        </div>
-		<div class="container">
-			<div class="graph">
-	
-			</div>
-			<!-- If the script is higher it runs before these elements are created. -->
-			<script src="/smdux1/js/graph.js"></script>
-		</div>
-		
-	</div>
-    </body>
-</html>
+<!DOCTYPE html><HTML>  <HEAD>
+    <!-- META -->    <META charset="utf-8">    <META name="viewport" content="width=device-width, initial-scale=1"><!-- Optimize mobile viewport -->    
+    <TITLE>MeLTS - Knowledge Map</TITLE>    
+    <!-- Libraries -->    <SCRIPT src="/smdux1/js/d3/d3.min.js"></SCRIPT>    <LINK rel="stylesheet" href="/smdux1/css/bootstrap.min.css">   
+    <STYLE>    .graph {		background-color: #ffffff;    }	.svg{	border: solid gray;	}	    .link {		stroke: #999;		stroke-opacity: .6;    }
+    .node circle{		stroke: #000;		stroke-width: 1.5px;    }  
+    .node text {		fill: white;		pointer-events: none;		font: 12px sans-serif;		text-shadow: 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black;    }    .container {    }
+	    .row {		padding: 12px;    }
+    
+    .canvas {		position: absolute;    }
+    .popup {		position: absolute;		left: 0;		top: 0;		background-color: #fff;		width: 200px;		border: 1px #ccc solid;		border-radius: 6px;		box-shadow: #333 2px 2px 4px;		padding: 8px;		font-family: arial, helvetica, sans-serif;    }    </STYLE></HEAD>
+  <BODY>        
+<DIV class="container">
+    <SCRIPT src="/smdux1/js/searchRequests.js"></SCRIPT>		<DIV class="row">			<DIV class="col-md-6 center-block" style="float:none">				<DIV class="input-group">					<INPUT type="text" class="form-control" id="search" onkeydown="if (event.keyCode == 13) document.getElementById('btnSearch').click()">					<SPAN class="input-group-btn">						<BUTTON  id="btnSearch" class="btn btn-default" onclick="query(document.getElementById('search').value);						document.getElementById('search').value = '';">						Search						</BUTTON>					</SPAN>				</DIV><!-- /input-group -->
+			</DIV>			</DIV>			
+			<DIV class="row">
+				<DIV class="col-md-6 center-block" style="float:none">					<BUTTON type="button" class="btn btn-info btn-xs"  onclick="query('');">Overview</BUTTON>					<BUTTON type="button" class="btn btn-info btn-xs"  onclick="toggleView()">Unit Clumping</BUTTON>				</DIV>
+		</DIV>				<DIV class="row">		<DIV class="col-md-6 center-block" style="float:none">					<span id="query" class="text-danger">Overview</span>					<span>,</span>					<span id="mode" class="text-primary">Unit Clumping - Off</span>			</DIV>			</DIV>	<DIV class="row">		<DIV class="col-md-12">			<DIV class="graph" id="graph1" >			</DIV>
+					  <SCRIPT src="/smdux1/js/graph.js"></SCRIPT><!-- If the script is higher it runs before these elements are created. -->
+		  <SCRIPT><!--INITIALISE the map to all nodes. -->						query("");		  </SCRIPT>
+		</DIV>			</DIV>
+</DIV>
+</BODY>
+</HTML>

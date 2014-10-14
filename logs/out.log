@@ -486,3 +486,840 @@ Connected to Mongoose DB
 [90mPOST /api/map [31m500 [90m7ms - 1.08kb[0m
 [90mPOST /api/map [31m500 [90m7ms - 1.08kb[0m
 [90mPOST /api/map [31m500 [90m7ms - 1.08kb[0m
+-----------------------------------------
+Update available: 1.2.1 (current: 1.0.20)
+Run npm update -g nodemon to update
+-----------------------------------------
+19 Aug 22:43:28 - [33m[nodemon] v1.0.20[39m
+19 Aug 22:43:28 - [33m[nodemon] to restart at any time, enter `rs`[39m
+19 Aug 22:43:28 - [33m[nodemon] watching: *.*[39m
+19 Aug 22:43:28 - [32m[nodemon] starting `node /srv/home/smdux1/MELTS---KnowlegdeMap/server.js`[39m
+App listening on 130.194.20.158:8000
+Connected to Mongoose DB
+[90mGET /map [32m200 [90m21ms - 4.12kb[0m
+[90mGET /api/map [32m200 [90m50ms - 8.51kb[0m
+[90mGET /api/map [32m200 [90m19ms - 8.51kb[0m
+[90mGET / [32m200 [90m3ms - 867b[0m
+[90mGET /map [36m304 [90m8ms[0m
+[90mGET /api/map [36m304 [90m44ms[0m
+[90mGET /api/map [36m304 [90m19ms[0m
+[90mGET /map [32m200 [90m4ms - 4.12kb[0m
+[90mGET /api/map [32m200 [90m17ms - 8.51kb[0m
+[90mGET /api/map [36m304 [90m18ms[0m
+[90mGET /map [36m304 [90m2ms[0m
+[90mGET /api/map [36m304 [90m18ms[0m
+[90mGET /api/map [36m304 [90m14ms[0m
+[90mDELETE /api/map/53f33dcab369b8d559256551 [32m200 [90m27ms - 8.17kb[0m
+[90mGET /map [32m200 [90m4ms - 4.12kb[0m
+[90mGET /api/map [32m200 [90m16ms - 8.17kb[0m
+[90mGET /api/map [36m304 [90m22ms[0m
+19 Aug 22:50:40 - [32m[nodemon] restarting due to changes...[39m
+19 Aug 22:50:40 - [32m[nodemon] starting `node /srv/home/smdux1/MELTS---KnowlegdeMap/server.js`[39m
+19 Aug 22:50:40 - [32m[nodemon] restarting due to changes...[39m
+19 Aug 22:50:40 - [32m[nodemon] restarting due to changes...[39m
+19 Aug 22:50:41 - [32m[nodemon] starting `node /srv/home/smdux1/MELTS---KnowlegdeMap/server.js`[39m
+App listening on 130.194.20.158:8000
+Connected to Mongoose DB
+[90mGET /map [36m304 [90m16ms[0m
+[90mGET /api/map [32m200 [90m48ms - 8.17kb[0m
+[90mGET /api/map [36m304 [90m20ms[0m
+19 Aug 22:51:34 - [32m[nodemon] restarting due to changes...[39m
+19 Aug 22:51:34 - [32m[nodemon] starting `node /srv/home/smdux1/MELTS---KnowlegdeMap/server.js`[39m
+19 Aug 22:51:34 - [32m[nodemon] restarting due to changes...[39m
+19 Aug 22:51:34 - [32m[nodemon] restarting due to changes...[39m
+19 Aug 22:51:34 - [32m[nodemon] starting `node /srv/home/smdux1/MELTS---KnowlegdeMap/server.js`[39m
+App listening on 130.194.20.158:8000
+Connected to Mongoose DB
+[90mGET /map [32m200 [90m24ms - 4.12kb[0m
+[90mGET /api/map [32m200 [90m69ms - 8.17kb[0m
+[90mGET /api/map [32m200 [90m22ms - 8.17kb[0m
+19 Aug 22:56:04 - [32m[nodemon] restarting due to changes...[39m
+19 Aug 22:56:04 - [32m[nodemon] starting `node /srv/home/smdux1/MELTS---KnowlegdeMap/server.js`[39m
+19 Aug 22:56:04 - [32m[nodemon] restarting due to changes...[39m
+19 Aug 22:56:05 - [32m[nodemon] starting `node /srv/home/smdux1/MELTS---KnowlegdeMap/server.js`[39m
+App listening on 130.194.20.158:8000
+Connected to Mongoose DB
+[90mGET /map [32m200 [90m21ms - 4.12kb[0m
+[90mGET /api/map [32m200 [90m70ms - 8.17kb[0m
+[90mGET /api/map [32m200 [90m21ms - 8.17kb[0m
+19 Aug 22:57:42 - [32m[nodemon] restarting due to changes...[39m
+19 Aug 22:57:42 - [32m[nodemon] starting `node /srv/home/smdux1/MELTS---KnowlegdeMap/server.js`[39m
+19 Aug 22:57:42 - [32m[nodemon] restarting due to changes...[39m
+19 Aug 22:57:42 - [32m[nodemon] restarting due to changes...[39m
+19 Aug 22:57:42 - [32m[nodemon] starting `node /srv/home/smdux1/MELTS---KnowlegdeMap/server.js`[39m
+App listening on 130.194.20.158:8000
+Connected to Mongoose DB
+[90mGET /map [32m200 [90m11ms - 4.12kb[0m
+[90mGET /api/map [32m200 [90m67ms - 8.17kb[0m
+[90mGET /api/map [32m200 [90m22ms - 8.17kb[0m
+[90mGET / [36m304 [90m4ms[0m
+[90mGET /map [36m304 [90m5ms[0m
+[90mGET /api/map [36m304 [90m23ms[0m
+[90mGET /api/map [36m304 [90m26ms[0m
+[90mGET / [32m200 [90m8ms - 867b[0m
+[90mGET /map [32m200 [90m2ms - 4.12kb[0m
+[90mGET /api/map [32m200 [90m23ms - 8.17kb[0m
+[90mGET /api/map [36m304 [90m23ms[0m
+[90mGET /map [36m304 [90m3ms[0m
+[90mGET /api/map [36m304 [90m21ms[0m
+[90mGET /api/map [36m304 [90m23ms[0m
+[90mGET / [32m200 [90m5ms - 867b[0m
+[90mGET / [36m304 [90m2ms[0m
+[90mGET /map [32m200 [90m3ms - 4.12kb[0m
+[90mGET /api/map [32m200 [90m14ms - 8.17kb[0m
+[90mGET /api/map [36m304 [90m16ms[0m
+[90mGET / [32m200 [90m11ms - 867b[0m
+[90mGET / [32m200 [90m3ms - 867b[0m
+[90mGET /map [32m200 [90m1ms - 4.12kb[0m
+[90mGET /api/map [32m200 [90m19ms - 8.17kb[0m
+[90mGET /api/map [36m304 [90m15ms[0m
+[90mGET / [32m200 [90m3ms - 867b[0m
+[90mGET /map [32m200 [90m3ms - 4.12kb[0m
+[90mGET /api/map [32m200 [90m35ms - 8.17kb[0m
+[90mGET /api/map [36m304 [90m20ms[0m
+[90mGET / [32m200 [90m58ms - 867b[0m
+[90mGET / [36m304 [90m2ms[0m
+[90mGET /map [32m200 [90m34ms - 4.12kb[0m
+[90mGET /api/map [32m200 [90m136ms - 8.17kb[0m
+[90mGET /api/map [36m304 [90m20ms[0m
+[90mGET /map [36m304 [90m2ms[0m
+[90mGET /api/map [36m304 [90m18ms[0m
+[90mGET /api/map [36m304 [90m29ms[0m
+[90mDELETE /api/map/53f33eb8b369b8d55925655d [32m200 [90m30ms - 7.88kb[0m
+[90mDELETE /api/map/53f33eb0b369b8d55925655b [32m200 [90m15ms - 7.58kb[0m
+[90mDELETE /api/map/53f343923ef06b1d5d46b402 [32m200 [90m15ms - 7.16kb[0m
+[90mDELETE /api/map/53f33ebeb369b8d55925655f [32m200 [90m15ms - 6.87kb[0m
+[90mGET / [32m200 [90m126ms - 867b[0m
+[90mGET / [32m200 [90m70ms - 867b[0m
+[90mGET /map [32m200 [90m12ms - 4.12kb[0m
+[90mGET /api/map [32m200 [90m343ms - 6.87kb[0m
+[90mGET /api/map [36m304 [90m12ms[0m
+11 Sep 17:03:13 - [32m[nodemon] restarting due to changes...[39m
+11 Sep 17:03:13 - [32m[nodemon] restarting due to changes...[39m
+11 Sep 17:03:13 - [32m[nodemon] restarting due to changes...[39m
+11 Sep 17:03:13 - [32m[nodemon] starting `node /srv/home/smdux1/MELTS---KnowlegdeMap/server.js`[39m
+App listening on 130.194.20.158:8000
+Connected to Mongoose DB
+[90mGET /map [36m304 [90m18ms[0m
+[90mGET /api/map [36m304 [90m47ms[0m
+[90mGET /api/map [36m304 [90m23ms[0m
+11 Sep 17:05:49 - [32m[nodemon] restarting due to changes...[39m
+11 Sep 17:05:49 - [32m[nodemon] starting `node /srv/home/smdux1/MELTS---KnowlegdeMap/server.js`[39m
+11 Sep 17:05:49 - [32m[nodemon] restarting due to changes...[39m
+11 Sep 17:05:50 - [32m[nodemon] starting `node /srv/home/smdux1/MELTS---KnowlegdeMap/server.js`[39m
+App listening on 130.194.20.158:8000
+Connected to Mongoose DB
+[90mGET /map [36m304 [90m18ms[0m
+[90mGET /api/map [36m304 [90m46ms[0m
+[90mGET /api/map [36m304 [90m23ms[0m
+11 Sep 17:07:09 - [32m[nodemon] restarting due to changes...[39m
+11 Sep 17:07:09 - [32m[nodemon] starting `node /srv/home/smdux1/MELTS---KnowlegdeMap/server.js`[39m
+11 Sep 17:07:09 - [32m[nodemon] restarting due to changes...[39m
+11 Sep 17:07:09 - [32m[nodemon] restarting due to changes...[39m
+11 Sep 17:07:09 - [32m[nodemon] starting `node /srv/home/smdux1/MELTS---KnowlegdeMap/server.js`[39m
+App listening on 130.194.20.158:8000
+Connected to Mongoose DB
+11 Sep 17:10:10 - [32m[nodemon] restarting due to changes...[39m
+11 Sep 17:10:10 - [32m[nodemon] starting `node /srv/home/smdux1/MELTS---KnowlegdeMap/server.js`[39m
+11 Sep 17:10:10 - [32m[nodemon] restarting due to changes...[39m
+11 Sep 17:10:10 - [32m[nodemon] starting `node /srv/home/smdux1/MELTS---KnowlegdeMap/server.js`[39m
+App listening on 130.194.20.158:8000
+Connected to Mongoose DB
+[90mGET /map [36m304 [90m17ms[0m
+[90mGET /api/map [36m304 [90m46ms[0m
+[90mGET /api/map [36m304 [90m22ms[0m
+11 Sep 17:10:41 - [32m[nodemon] restarting due to changes...[39m
+11 Sep 17:10:41 - [32m[nodemon] starting `node /srv/home/smdux1/MELTS---KnowlegdeMap/server.js`[39m
+11 Sep 17:10:41 - [32m[nodemon] restarting due to changes...[39m
+11 Sep 17:10:41 - [32m[nodemon] restarting due to changes...[39m
+11 Sep 17:10:41 - [32m[nodemon] starting `node /srv/home/smdux1/MELTS---KnowlegdeMap/server.js`[39m
+App listening on 130.194.20.158:8000
+Connected to Mongoose DB
+11 Sep 17:17:41 - [32m[nodemon] restarting due to changes...[39m
+11 Sep 17:17:41 - [32m[nodemon] starting `node /srv/home/smdux1/MELTS---KnowlegdeMap/server.js`[39m
+11 Sep 17:17:41 - [32m[nodemon] restarting due to changes...[39m
+11 Sep 17:17:42 - [32m[nodemon] restarting due to changes...[39m
+11 Sep 17:17:42 - [32m[nodemon] starting `node /srv/home/smdux1/MELTS---KnowlegdeMap/server.js`[39m
+App listening on 130.194.20.158:8000
+Connected to Mongoose DB
+11 Sep 17:18:16 - [32m[nodemon] restarting due to changes...[39m
+11 Sep 17:18:16 - [32m[nodemon] starting `node /srv/home/smdux1/MELTS---KnowlegdeMap/server.js`[39m
+11 Sep 17:18:16 - [32m[nodemon] restarting due to changes...[39m
+11 Sep 17:18:17 - [32m[nodemon] restarting due to changes...[39m
+11 Sep 17:18:17 - [32m[nodemon] starting `node /srv/home/smdux1/MELTS---KnowlegdeMap/server.js`[39m
+App listening on 130.194.20.158:8000
+Connected to Mongoose DB
+[90mGET /map [36m304 [90m18ms[0m
+[90mGET /api/map [36m304 [90m43ms[0m
+[90mGET /api/map [36m304 [90m22ms[0m
+11 Sep 17:19:09 - [32m[nodemon] restarting due to changes...[39m
+11 Sep 17:19:09 - [32m[nodemon] starting `node /srv/home/smdux1/MELTS---KnowlegdeMap/server.js`[39m
+11 Sep 17:19:09 - [32m[nodemon] restarting due to changes...[39m
+11 Sep 17:19:09 - [32m[nodemon] restarting due to changes...[39m
+11 Sep 17:19:09 - [32m[nodemon] starting `node /srv/home/smdux1/MELTS---KnowlegdeMap/server.js`[39m
+App listening on 130.194.20.158:8000
+Connected to Mongoose DB
+[90mGET /map [36m304 [90m17ms[0m
+[90mGET /api/map [36m304 [90m47ms[0m
+[90mGET /api/map [36m304 [90m22ms[0m
+11 Sep 17:24:18 - [32m[nodemon] restarting due to changes...[39m
+11 Sep 17:24:18 - [32m[nodemon] starting `node /srv/home/smdux1/MELTS---KnowlegdeMap/server.js`[39m
+11 Sep 17:24:18 - [32m[nodemon] restarting due to changes...[39m
+11 Sep 17:24:18 - [32m[nodemon] starting `node /srv/home/smdux1/MELTS---KnowlegdeMap/server.js`[39m
+App listening on 130.194.20.158:8000
+Connected to Mongoose DB
+[90mGET /mod [33m404 [90m21ms - 45b[0m
+11 Sep 17:27:01 - [32m[nodemon] restarting due to changes...[39m
+11 Sep 17:27:01 - [32m[nodemon] starting `node /srv/home/smdux1/MELTS---KnowlegdeMap/server.js`[39m
+11 Sep 17:27:01 - [32m[nodemon] restarting due to changes...[39m
+11 Sep 17:27:01 - [32m[nodemon] restarting due to changes...[39m
+11 Sep 17:27:02 - [32m[nodemon] starting `node /srv/home/smdux1/MELTS---KnowlegdeMap/server.js`[39m
+App listening on 130.194.20.158:8000
+Connected to Mongoose DB
+[90mGET /mod [33m404 [90m18ms - 44b[0m
+11 Sep 17:27:20 - [32m[nodemon] restarting due to changes...[39m
+11 Sep 17:27:20 - [32m[nodemon] starting `node /srv/home/smdux1/MELTS---KnowlegdeMap/server.js`[39m
+11 Sep 17:27:21 - [32m[nodemon] restarting due to changes...[39m
+11 Sep 17:27:21 - [32m[nodemon] restarting due to changes...[39m
+11 Sep 17:27:21 - [32m[nodemon] starting `node /srv/home/smdux1/MELTS---KnowlegdeMap/server.js`[39m
+App listening on 130.194.20.158:8000
+Connected to Mongoose DB
+[90mGET /mod [32m200 [90m23ms - 4.12kb[0m
+[90mGET /api/map [36m304 [90m47ms[0m
+[90mGET /api/map [36m304 [90m24ms[0m
+[90mGET /map [32m200 [90m4ms - 1.46kb[0m
+[90mGET /api/map [36m304 [90m25ms[0m
+[90mGET /map [32m200 [90m5ms - 1.52kb[0m
+[90mGET /api/map [36m304 [90m21ms[0m
+[90mGET /map [32m200 [90m2ms - 1.53kb[0m
+[90mGET /api/map [36m304 [90m46ms[0m
+[90mGET /map [32m200 [90m4ms - 1.53kb[0m
+[90mGET /api/map [36m304 [90m17ms[0m
+[90mGET /map [32m200 [90m3ms - 1.54kb[0m
+[90mGET /api/map [36m304 [90m15ms[0m
+[90mGET /map [36m304 [90m2ms[0m
+[90mGET /api/map [36m304 [90m18ms[0m
+[90mGET /map [36m304 [90m1ms[0m
+[90mGET /map [36m304 [90m2ms[0m
+[90mGET /map [36m304 [90m1ms[0m
+[90mGET /map [32m200 [90m2ms - 1.54kb[0m
+[90mGET /api/map [36m304 [90m11ms[0m
+[90mGET /map [32m200 [90m3ms - 1.56kb[0m
+[90mGET /api/map [36m304 [90m16ms[0m
+[90mGET /map [32m200 [90m2ms - 1.54kb[0m
+[90mGET /api/map [36m304 [90m17ms[0m
+[90mGET /map [36m304 [90m2ms[0m
+[90mGET /api/map [36m304 [90m19ms[0m
+[90mGET /map [32m200 [90m3ms - 1.54kb[0m
+[90mGET /api/map [36m304 [90m15ms[0m
+[90mGET /map [32m200 [90m3ms - 1.53kb[0m
+[90mGET /api/map [36m304 [90m14ms[0m
+[90mGET /map [32m200 [90m2ms - 1.54kb[0m
+[90mGET /api/map [36m304 [90m17ms[0m
+[90mGET /map [32m200 [90m2ms - 1.54kb[0m
+[90mGET /api/map [36m304 [90m13ms[0m
+[90mGET /map [32m200 [90m3ms - 1.55kb[0m
+[90mGET /api/map [36m304 [90m11ms[0m
+[90mGET /map [32m200 [90m3ms - 1.54kb[0m
+[90mGET /api/map [36m304 [90m19ms[0m
+[90mGET /map [32m200 [90m4ms - 1.51kb[0m
+[90mGET /api/map [36m304 [90m18ms[0m
+[90mGET /map [32m200 [90m3ms - 1.51kb[0m
+[90mGET /api/map [36m304 [90m11ms[0m
+[90mGET /map [32m200 [90m3ms - 1.51kb[0m
+[90mGET /api/map [36m304 [90m13ms[0m
+[90mGET /map [32m200 [90m3ms - 1.51kb[0m
+[90mGET /api/map [36m304 [90m10ms[0m
+[90mGET /map [32m200 [90m3ms - 1.51kb[0m
+[90mGET /api/map [36m304 [90m14ms[0m
+[90mGET /map [32m200 [90m2ms - 1.49kb[0m
+[90mGET /api/map [36m304 [90m19ms[0m
+[90mGET /map [32m200 [90m2ms - 1.49kb[0m
+[90mGET /api/map [36m304 [90m15ms[0m
+[90mGET /map [32m200 [90m3ms - 1.49kb[0m
+[90mGET /api/map [36m304 [90m18ms[0m
+[90mGET /map [32m200 [90m3ms - 1.48kb[0m
+[90mGET /api/map [36m304 [90m21ms[0m
+[90mGET /map [32m200 [90m2ms - 1.51kb[0m
+[90mGET /api/map [36m304 [90m19ms[0m
+[90mGET /map [32m200 [90m4ms - 1.52kb[0m
+[90mGET /api/map [36m304 [90m16ms[0m
+[90mGET /map [32m200 [90m3ms - 1.52kb[0m
+[90mGET /api/map [36m304 [90m43ms[0m
+[90mGET /map [32m200 [90m4ms - 1.52kb[0m
+[90mGET /api/map [36m304 [90m14ms[0m
+11 Sep 18:28:06 - [32m[nodemon] restarting due to changes...[39m
+11 Sep 18:28:06 - [32m[nodemon] restarting due to changes...[39m
+11 Sep 18:28:06 - [32m[nodemon] starting `node /srv/home/smdux1/MELTS---KnowlegdeMap/server.js`[39m
+11 Sep 18:28:07 - [32m[nodemon] restarting due to changes...[39m
+11 Sep 18:28:07 - [32m[nodemon] starting `node /srv/home/smdux1/MELTS---KnowlegdeMap/server.js`[39m
+App listening on 130.194.20.158:8000
+Connected to Mongoose DB
+[90mGET /map [36m304 [90m17ms[0m
+[90mGET /api/map [36m304 [90m44ms[0m
+11 Sep 18:53:44 - [32m[nodemon] restarting due to changes...[39m
+11 Sep 18:53:44 - [32m[nodemon] starting `node /srv/home/smdux1/MELTS---KnowlegdeMap/server.js`[39m
+11 Sep 18:53:44 - [32m[nodemon] restarting due to changes...[39m
+11 Sep 18:53:44 - [32m[nodemon] starting `node /srv/home/smdux1/MELTS---KnowlegdeMap/server.js`[39m
+App listening on 130.194.20.158:8000
+Connected to Mongoose DB
+[90mGET /map [36m304 [90m17ms[0m
+[90mGET /api/map [36m304 [90m45ms[0m
+[90mGET /map [32m200 [90m6ms - 1.51kb[0m
+[90mGET /api/map [36m304 [90m25ms[0m
+[90mGET /map [32m200 [90m2ms - 2.07kb[0m
+[90mGET /api/map [36m304 [90m19ms[0m
+12 Sep 12:38:55 - [31m[nodemon] app crashed - waiting for file changes before starting...[39m
+13 Sep 14:40:59 - [33m[nodemon] v1.0.20[39m
+13 Sep 14:40:59 - [33m[nodemon] to restart at any time, enter `rs`[39m
+13 Sep 14:40:59 - [33m[nodemon] watching: *.*[39m
+13 Sep 14:40:59 - [32m[nodemon] starting `node /srv/home/smdux1/MELTS---KnowlegdeMap/server.js`[39m
+App listening on 130.194.20.158:8000
+Connected to Mongoose DB
+[90mGET / [32m200 [90m41ms - 867b[0m
+[90mGET /map [32m200 [90m27ms - 2.07kb[0m
+[90mGET /api/map [36m304 [90m150ms[0m
+15 Sep 14:15:41 - [32m[nodemon] restarting due to changes...[39m
+15 Sep 14:15:41 - [32m[nodemon] starting `node /srv/home/smdux1/MELTS---KnowlegdeMap/server.js`[39m
+15 Sep 14:15:41 - [32m[nodemon] restarting due to changes...[39m
+15 Sep 14:15:41 - [32m[nodemon] restarting due to changes...[39m
+15 Sep 14:15:41 - [32m[nodemon] restarting due to changes...[39m
+15 Sep 14:15:41 - [32m[nodemon] starting `node /srv/home/smdux1/MELTS---KnowlegdeMap/server.js`[39m
+App listening on 130.194.20.158:8000
+Connected to Mongoose DB
+15 Sep 14:27:59 - [32m[nodemon] restarting due to changes...[39m
+15 Sep 14:27:59 - [32m[nodemon] starting `node /srv/home/smdux1/MELTS---KnowlegdeMap/server.js`[39m
+15 Sep 14:27:59 - [32m[nodemon] restarting due to changes...[39m
+15 Sep 14:28:00 - [32m[nodemon] starting `node /srv/home/smdux1/MELTS---KnowlegdeMap/server.js`[39m
+15 Sep 14:28:00 - [31m[nodemon] app crashed - waiting for file changes before starting...[39m
+17 Sep 00:19:15 - [33m[nodemon] v1.0.20[39m
+17 Sep 00:19:15 - [33m[nodemon] to restart at any time, enter `rs`[39m
+17 Sep 00:19:15 - [33m[nodemon] watching: *.*[39m
+17 Sep 00:19:15 - [32m[nodemon] starting `node /srv/home/smdux1/MELTS---KnowlegdeMap/server.js`[39m
+App listening on 130.194.20.158:8000
+Connected to Mongoose DB
+[90mGET / [32m200 [90m23ms - 867b[0m
+[90mGET /map [32m200 [90m8ms - 2.33kb[0m
+[90mGET /api/map [32m200 [90m44ms - 6.84kb[0m
+{ test: 'true' }
+{ test: 'true' }
+{ test: 'true' }
+{ test: 'true' }
+{ test: 'true' }
+{ test: 'true' }
+[90mPOST /api/map/search [32m200 [90m60030ms[0m
+[90mPOST /api/map/search [32m200 [90m60027ms[0m
+[90mPOST /api/map/search [32m200 [90m60026ms[0m
+[90mPOST /api/map/search [32m200 [90m60053ms[0m
+[90mPOST /api/map/search [32m200 [90m60000ms[0m
+[90mPOST /api/map/search [32m200 [90m60048ms[0m
+[90mGET / [32m200 [90m4ms - 867b[0m
+[90mGET /map [32m200 [90m3ms - 2.33kb[0m
+[90mGET /api/map [32m200 [90m31ms - 6.84kb[0m
+{ test: 'true' }
+{ test: 'true' }
+{ test: 'true' }
+[90mPOST /api/map/search [32m200 [90m60011ms[0m
+[90mPOST /api/map/search [32m200 [90m60001ms[0m
+[90mPOST /api/map/search [32m200 [90m60034ms[0m
+[90mGET / [32m200 [90m4ms - 867b[0m
+[90mGET / [32m200 [90m2ms - 867b[0m
+[90mGET / [36m304 [90m3ms[0m
+[90mGET / [32m200 [90m1ms - 867b[0m
+[90mGET / [36m304 [90m2ms[0m
+[90mGET / [32m200 [90m1ms - 867b[0m
+[90mGET /map [32m200 [90m12ms - 2.33kb[0m
+[90mGET /api/map [32m200 [90m34ms - 6.84kb[0m
+[90mGET / [32m200 [90m2ms - 867b[0m
+[90mGET / [32m200 [90m2ms - 867b[0m
+[90mGET / [32m200 [90m4ms - 867b[0m
+[90mGET / [32m200 [90m3ms - 867b[0m
+[90mGET / [32m200 [90m5ms - 867b[0m
+[90mGET / [32m200 [90m8ms - 867b[0m
+[90mGET / [32m200 [90m3ms - 867b[0m
+[90mGET / [36m304 [90m3ms[0m
+[90mGET /map [32m200 [90m15ms - 2.33kb[0m
+[90mGET /api/map [32m200 [90m30ms - 6.84kb[0m
+-----------------------------------------
+Update available: 1.2.1 (current: 1.0.20)
+Run npm update -g nodemon to update
+-----------------------------------------
+7 Oct 11:19:58 - [33m[nodemon] v1.0.20[39m
+7 Oct 11:19:58 - [33m[nodemon] to restart at any time, enter `rs`[39m
+7 Oct 11:19:58 - [33m[nodemon] watching: *.*[39m
+7 Oct 11:19:58 - [32m[nodemon] starting `node /srv/home/smdux1/MELTS---KnowlegdeMap/server.js`[39m
+App listening on 130.194.20.158:8000
+Connected to Mongoose DB
+[90mGET / [36m304 [90m17ms[0m
+[90mGET /signup [32m200 [90m10ms - 1.64kb[0m
+[90mGET /login [32m200 [90m4ms - 1.63kb[0m
+[90mPOST /login [36m302 [90m183ms - 86b[0m
+[90mGET /profile [32m200 [90m7ms - 1kb[0m
+[90mGET /mod [32m200 [90m6ms - 3.58kb[0m
+[90mGET /api/map [32m200 [90m102ms - 27.08kb[0m
+[90mGET /mod [36m302 [90m5ms - 82b[0m
+[90mGET /login [32m200 [90m4ms - 1.63kb[0m
+[90mGET / [32m200 [90m7ms - 830b[0m
+[90mGET /login [32m200 [90m3ms - 1.63kb[0m
+[90mPOST /login [36m302 [90m152ms - 86b[0m
+[90mGET /profile [32m200 [90m5ms - 1kb[0m
+[90mGET /map [32m200 [90m6ms - 2.34kb[0m
+Searched for:
+[90mPOST /api/map/search [32m200 [90m67ms - 27.08kb[0m
+Searched for:
+[90mPOST /api/map/search [32m200 [90m56ms - 27.08kb[0m
+Searched for:AND GATES
+[90mPOST /api/map/search [32m200 [90m13ms - 296b[0m
+Searched for:
+[90mPOST /api/map/search [32m200 [90m45ms - 27.08kb[0m
+Searched for:ECE2061,ENG1030
+[90mPOST /api/map/search [32m200 [90m18ms - 9.03kb[0m
+Searched for:`REAL POWER
+[90mPOST /api/map/search [32m200 [90m10ms - 1.93kb[0m
+Searched for:
+[90mPOST /api/map/search [32m200 [90m49ms - 27.08kb[0m
+Searched for:
+[90mPOST /api/map/search [32m200 [90m46ms - 27.08kb[0m
+Searched for:
+[90mPOST /api/map/search [32m200 [90m56ms - 27.08kb[0m
+Searched for:
+[90mPOST /api/map/search [32m200 [90m65ms - 27.08kb[0m
+Searched for:ENG1030
+[90mPOST /api/map/search [32m200 [90m20ms - 4.79kb[0m
+Searched for:
+[90mPOST /api/map/search [32m200 [90m79ms - 27.08kb[0m
+Searched for:`TCP/IP ARCHITECTURE
+[90mPOST /api/map/search [32m200 [90m20ms - 308b[0m
+Searched for:
+[90mPOST /api/map/search [32m200 [90m37ms - 27.08kb[0m
+Searched for:`ROM
+[90mPOST /api/map/search [32m200 [90m13ms - 705b[0m
+Searched for:
+[90mPOST /api/map/search [32m200 [90m46ms - 27.08kb[0m
+Searched for:
+[90mPOST /api/map/search [32m200 [90m39ms - 27.08kb[0m
+Searched for:
+[90mPOST /api/map/search [32m200 [90m38ms - 27.08kb[0m
+[90mGET /mod [32m200 [90m6ms - 3.58kb[0m
+[90mGET /api/map [32m200 [90m41ms - 27.08kb[0m
+5430edf13472488529332e0a
+[90mDELETE /api/mod/5430edf13472488529332e0a [32m200 [90m53ms - 26.72kb[0m
+[90mGET / [32m200 [90m4ms - 830b[0m
+[90mGET / [32m200 [90m2ms - 830b[0m
+[90mGET /map [32m200 [90m1ms - 2.34kb[0m
+Searched for:
+[90mPOST /api/map/search [32m200 [90m24ms - 26.72kb[0m
+Searched for:
+[90mPOST /api/map/search [32m200 [90m20ms - 26.72kb[0m
+Searched for:
+[90mPOST /api/map/search [32m200 [90m39ms - 26.72kb[0m
+[90mGET / [32m200 [90m2ms - 830b[0m
+[90mGET /map [32m200 [90m1ms - 2.34kb[0m
+Searched for:
+[90mPOST /api/map/search [32m200 [90m38ms - 26.72kb[0m
+Searched for:
+[90mPOST /api/map/search [32m200 [90m81ms - 26.72kb[0m
+[90mGET /mod [36m302 [90m4ms - 82b[0m
+[90mGET / [32m200 [90m3ms - 830b[0m
+[90mGET /login [32m200 [90m3ms - 1.63kb[0m
+[90mGET / [32m200 [90m3ms - 830b[0m
+[90mGET /map [32m200 [90m3ms - 2.34kb[0m
+Searched for:
+[90mPOST /api/map/search [32m200 [90m61ms - 26.72kb[0m
+Searched for:
+[90mPOST /api/map/search [32m200 [90m61ms - 26.72kb[0m
+Searched for:ECE2031
+[90mPOST /api/map/search [32m200 [90m9ms - 1.11kb[0m
+Searched for:ENG1030
+[90mPOST /api/map/search [32m200 [90m13ms - 4.79kb[0m
+[90mGET / [36m304 [90m4ms[0m
+[90mGET /map [32m200 [90m4ms - 2.34kb[0m
+Searched for:
+[90mPOST /api/map/search [32m200 [90m38ms - 26.72kb[0m
+[90mGET /map [32m200 [90m3ms - 2.34kb[0m
+Searched for:
+[90mPOST /api/map/search [32m200 [90m39ms - 26.72kb[0m
+[90mGET / [36m304 [90m3ms[0m
+Searched for:
+[90mPOST /api/map/search [32m200 [90m48ms - 26.72kb[0m
+Searched for:`LINEAR REGRESSION
+[90mPOST /api/map/search [32m200 [90m11ms - 753b[0m
+Searched for:
+[90mPOST /api/map/search [32m200 [90m38ms - 26.72kb[0m
+[90mGET /map [36m304 [90m3ms[0m
+Searched for:
+[90mPOST /api/map/search [32m200 [90m76ms - 26.72kb[0m
+[90mGET /mod [36m302 [90m1ms - 82b[0m
+[90mGET / [32m200 [90m7ms - 830b[0m
+[90mGET /login [32m200 [90m2ms - 1.63kb[0m
+[90mGET /map [32m200 [90m4ms - 2.34kb[0m
+Searched for:
+[90mPOST /api/map/search [32m200 [90m43ms - 26.72kb[0m
+[90mGET /map [36m304 [90m3ms[0m
+Searched for:
+[90mPOST /api/map/search [32m200 [90m37ms - 26.72kb[0m
+[90mGET /map [32m200 [90m2ms - 2.44kb[0m
+Searched for:
+[90mPOST /api/map/search [32m200 [90m38ms - 26.72kb[0m
+Searched for:
+[90mPOST /api/map/search [32m200 [90m55ms - 26.72kb[0m
+Searched for:
+[90mPOST /api/map/search [32m200 [90m56ms - 26.72kb[0m
+Searched for:`TCP/IP ARCHITECTURE
+[90mPOST /api/map/search [32m200 [90m10ms - 308b[0m
+Searched for:
+[90mPOST /api/map/search [32m200 [90m48ms - 26.72kb[0m
+9 Oct 15:33:02 - [32m[nodemon] restarting due to changes...[39m
+9 Oct 15:33:03 - [32m[nodemon] restarting due to changes...[39m
+9 Oct 15:33:03 - [32m[nodemon] starting `node /srv/home/smdux1/MELTS---KnowlegdeMap/server.js`[39m
+9 Oct 15:33:03 - [32m[nodemon] restarting due to changes...[39m
+9 Oct 15:33:03 - [32m[nodemon] starting `node /srv/home/smdux1/MELTS---KnowlegdeMap/server.js`[39m
+App listening on 130.194.20.158:8000
+Connected to Mongoose DB
+9 Oct 15:35:02 - [32m[nodemon] restarting due to changes...[39m
+9 Oct 15:35:02 - [32m[nodemon] starting `node /srv/home/smdux1/MELTS---KnowlegdeMap/server.js`[39m
+9 Oct 15:35:02 - [32m[nodemon] restarting due to changes...[39m
+9 Oct 15:35:02 - [32m[nodemon] restarting due to changes...[39m
+9 Oct 15:35:02 - [32m[nodemon] starting `node /srv/home/smdux1/MELTS---KnowlegdeMap/server.js`[39m
+App listening on 130.194.20.158:8000
+Connected to Mongoose DB
+[90mGET /map [32m200 [90m23ms - 2.54kb[0m
+Searched for:
+[90mPOST /api/map/search [32m200 [90m99ms - 26.72kb[0m
+Searched for:
+[90mPOST /api/map/search [32m200 [90m85ms - 26.72kb[0m
+Searched for:`ELECTRICAL ENGINEERING
+[90mPOST /api/map/search [32m200 [90m20ms - 1.82kb[0m
+[90mGET /map [32m200 [90m7ms - 2.54kb[0m
+Searched for:
+[90mPOST /api/map/search [32m200 [90m47ms - 26.72kb[0m
+Searched for:
+[90mPOST /api/map/search [32m200 [90m52ms - 26.72kb[0m
+Searched for:`FLIP FLOPS
+[90mPOST /api/map/search [32m200 [90m10ms - 1.47kb[0m
+[90mGET /map [32m200 [90m3ms - 2.59kb[0m
+Searched for:
+[90mPOST /api/map/search [32m200 [90m45ms - 26.72kb[0m
+Searched for:`ELECTRICAL ENGINEERING
+[90mPOST /api/map/search [32m200 [90m10ms - 1.82kb[0m
+[90mGET /map [32m200 [90m4ms - 2.59kb[0m
+Searched for:
+[90mPOST /api/map/search [32m200 [90m39ms - 26.72kb[0m
+Searched for:`ELECTRICAL ENGINEERING
+[90mPOST /api/map/search [32m200 [90m8ms - 1.82kb[0m
+[90mGET /map [32m200 [90m3ms - 2.59kb[0m
+Searched for:
+[90mPOST /api/map/search [32m200 [90m48ms - 26.72kb[0m
+Searched for:`ELECTRICAL ENGINEERING
+[90mPOST /api/map/search [32m200 [90m9ms - 1.82kb[0m
+[90mGET /map [32m200 [90m3ms - 2.56kb[0m
+Searched for:
+[90mPOST /api/map/search [32m200 [90m39ms - 26.72kb[0m
+Searched for:`OHMS LAW
+[90mPOST /api/map/search [32m200 [90m13ms - 5.07kb[0m
+Searched for:AC,KVL
+[90mPOST /api/map/search [32m200 [90m5ms - 564b[0m
+[90mGET /map [32m200 [90m3ms - 2.62kb[0m
+Searched for:
+[90mPOST /api/map/search [32m200 [90m61ms - 26.72kb[0m
+Searched for:AC,KVL
+[90mPOST /api/map/search [32m200 [90m7ms - 564b[0m
+9 Oct 15:52:44 - [32m[nodemon] restarting due to changes...[39m
+9 Oct 15:52:44 - [32m[nodemon] starting `node /srv/home/smdux1/MELTS---KnowlegdeMap/server.js`[39m
+9 Oct 15:52:44 - [32m[nodemon] restarting due to changes...[39m
+9 Oct 15:52:44 - [32m[nodemon] restarting due to changes...[39m
+9 Oct 15:52:45 - [32m[nodemon] starting `node /srv/home/smdux1/MELTS---KnowlegdeMap/server.js`[39m
+App listening on 130.194.20.158:8000
+Connected to Mongoose DB
+[90mGET /map [32m200 [90m24ms - 2.64kb[0m
+Searched for:
+[90mPOST /api/map/search [32m200 [90m95ms - 26.72kb[0m
+Searched for:
+[90mPOST /api/map/search [32m200 [90m84ms - 26.72kb[0m
+Searched for:`VOLTAGE
+[90mPOST /api/map/search [32m200 [90m19ms - 2.44kb[0m
+9 Oct 15:55:29 - [32m[nodemon] restarting due to changes...[39m
+9 Oct 15:55:29 - [32m[nodemon] starting `node /srv/home/smdux1/MELTS---KnowlegdeMap/server.js`[39m
+9 Oct 15:55:30 - [32m[nodemon] restarting due to changes...[39m
+9 Oct 15:55:30 - [32m[nodemon] restarting due to changes...[39m
+9 Oct 15:55:30 - [32m[nodemon] starting `node /srv/home/smdux1/MELTS---KnowlegdeMap/server.js`[39m
+App listening on 130.194.20.158:8000
+Connected to Mongoose DB
+[90mGET /map [32m200 [90m23ms - 2.66kb[0m
+Searched for:
+[90mPOST /api/map/search [32m200 [90m92ms - 26.72kb[0m
+Searched for:
+[90mPOST /api/map/search [32m200 [90m86ms - 26.72kb[0m
+Searched for:
+[90mPOST /api/map/search [32m200 [90m47ms - 26.72kb[0m
+Searched for:
+[90mPOST /api/map/search [32m200 [90m46ms - 26.72kb[0m
+Searched for:
+[90mPOST /api/map/search [32m200 [90m43ms - 26.72kb[0m
+Searched for:AC
+[90mPOST /api/map/search [32m200 [90m9ms - 282b[0m
+Searched for:`AC
+[90mPOST /api/map/search [32m200 [90m9ms - 812b[0m
+Searched for:
+[90mPOST /api/map/search [32m200 [90m40ms - 26.72kb[0m
+Searched for:
+[90mPOST /api/map/search [32m200 [90m47ms - 26.72kb[0m
+Searched for:
+[90mPOST /api/map/search [32m200 [90m38ms - 26.72kb[0m
+Searched for:
+[90mPOST /api/map/search [32m200 [90m36ms - 26.72kb[0m
+Searched for:
+[90mPOST /api/map/search [32m200 [90m56ms - 26.72kb[0m
+Searched for:
+[90mPOST /api/map/search [32m200 [90m49ms - 26.72kb[0m
+Searched for:
+[90mPOST /api/map/search [32m200 [90m63ms - 26.72kb[0m
+Searched for:
+[90mPOST /api/map/search [32m200 [90m37ms - 26.72kb[0m
+Searched for:`OHMS LAW
+[90mPOST /api/map/search [32m200 [90m14ms - 5.07kb[0m
+Searched for:
+[90mPOST /api/map/search [32m200 [90m33ms - 26.72kb[0m
+Searched for:
+[90mPOST /api/map/search [32m200 [90m34ms - 26.72kb[0m
+Searched for:
+[90mPOST /api/map/search [32m200 [90m34ms - 26.72kb[0m
+Searched for:
+[90mPOST /api/map/search [32m200 [90m34ms - 26.72kb[0m
+Searched for:
+[90mPOST /api/map/search [32m200 [90m44ms - 26.72kb[0m
+Searched for:
+[90mPOST /api/map/search [32m200 [90m35ms - 26.72kb[0m
+Searched for:
+[90mPOST /api/map/search [32m200 [90m35ms - 26.72kb[0m
+9 Oct 15:57:18 - [32m[nodemon] restarting due to changes...[39m
+9 Oct 15:57:18 - [32m[nodemon] starting `node /srv/home/smdux1/MELTS---KnowlegdeMap/server.js`[39m
+9 Oct 15:57:18 - [32m[nodemon] restarting due to changes...[39m
+9 Oct 15:57:18 - [32m[nodemon] restarting due to changes...[39m
+9 Oct 15:57:18 - [32m[nodemon] starting `node /srv/home/smdux1/MELTS---KnowlegdeMap/server.js`[39m
+App listening on 130.194.20.158:8000
+Connected to Mongoose DB
+[90mGET /map [36m304 [90m17ms[0m
+Searched for:
+[90mPOST /api/map/search [32m200 [90m95ms - 26.72kb[0m
+9 Oct 15:58:26 - [32m[nodemon] restarting due to changes...[39m
+9 Oct 15:58:26 - [32m[nodemon] starting `node /srv/home/smdux1/MELTS---KnowlegdeMap/server.js`[39m
+9 Oct 15:58:26 - [32m[nodemon] restarting due to changes...[39m
+9 Oct 15:58:26 - [32m[nodemon] restarting due to changes...[39m
+9 Oct 15:58:26 - [32m[nodemon] starting `node /srv/home/smdux1/MELTS---KnowlegdeMap/server.js`[39m
+App listening on 130.194.20.158:8000
+Connected to Mongoose DB
+[90mGET /map [36m304 [90m17ms[0m
+Searched for:
+[90mPOST /api/map/search [32m200 [90m105ms - 26.72kb[0m
+Searched for:`REACTIVE POWER
+[90mPOST /api/map/search [32m200 [90m18ms - 991b[0m
+Searched for:`VOLTAGE
+[90mPOST /api/map/search [32m200 [90m15ms - 2.44kb[0m
+Searched for:
+[90mPOST /api/map/search [32m200 [90m77ms - 26.72kb[0m
+9 Oct 15:59:19 - [32m[nodemon] restarting due to changes...[39m
+9 Oct 15:59:19 - [32m[nodemon] starting `node /srv/home/smdux1/MELTS---KnowlegdeMap/server.js`[39m
+9 Oct 15:59:19 - [32m[nodemon] restarting due to changes...[39m
+9 Oct 15:59:20 - [32m[nodemon] starting `node /srv/home/smdux1/MELTS---KnowlegdeMap/server.js`[39m
+App listening on 130.194.20.158:8000
+Connected to Mongoose DB
+[90mGET /map [36m304 [90m16ms[0m
+Searched for:
+[90mPOST /api/map/search [32m200 [90m92ms - 26.72kb[0m
+Searched for:`RESISTANCE
+[90mPOST /api/map/search [32m200 [90m16ms - 1.13kb[0m
+Searched for:
+[90mPOST /api/map/search [32m200 [90m82ms - 26.72kb[0m
+9 Oct 15:59:39 - [32m[nodemon] restarting due to changes...[39m
+9 Oct 15:59:39 - [32m[nodemon] starting `node /srv/home/smdux1/MELTS---KnowlegdeMap/server.js`[39m
+9 Oct 15:59:39 - [32m[nodemon] restarting due to changes...[39m
+9 Oct 15:59:39 - [32m[nodemon] restarting due to changes...[39m
+9 Oct 15:59:39 - [32m[nodemon] starting `node /srv/home/smdux1/MELTS---KnowlegdeMap/server.js`[39m
+App listening on 130.194.20.158:8000
+Connected to Mongoose DB
+9 Oct 15:59:49 - [32m[nodemon] restarting due to changes...[39m
+9 Oct 15:59:49 - [32m[nodemon] starting `node /srv/home/smdux1/MELTS---KnowlegdeMap/server.js`[39m
+9 Oct 15:59:49 - [32m[nodemon] restarting due to changes...[39m
+9 Oct 15:59:49 - [32m[nodemon] restarting due to changes...[39m
+9 Oct 15:59:49 - [32m[nodemon] starting `node /srv/home/smdux1/MELTS---KnowlegdeMap/server.js`[39m
+App listening on 130.194.20.158:8000
+Connected to Mongoose DB
+[90mGET /map [36m304 [90m16ms[0m
+Searched for:
+[90mPOST /api/map/search [32m200 [90m93ms - 26.72kb[0m
+Searched for:`FLIP FLOPS
+[90mPOST /api/map/search [32m200 [90m17ms - 1.47kb[0m
+Searched for:
+[90mPOST /api/map/search [32m200 [90m92ms - 26.72kb[0m
+9 Oct 16:00:06 - [32m[nodemon] restarting due to changes...[39m
+9 Oct 16:00:06 - [32m[nodemon] starting `node /srv/home/smdux1/MELTS---KnowlegdeMap/server.js`[39m
+9 Oct 16:00:06 - [32m[nodemon] restarting due to changes...[39m
+9 Oct 16:00:07 - [32m[nodemon] restarting due to changes...[39m
+9 Oct 16:00:07 - [32m[nodemon] starting `node /srv/home/smdux1/MELTS---KnowlegdeMap/server.js`[39m
+App listening on 130.194.20.158:8000
+Connected to Mongoose DB
+[90mGET /map [32m200 [90m23ms - 2.66kb[0m
+Searched for:
+[90mPOST /api/map/search [32m200 [90m95ms - 26.72kb[0m
+Searched for:ENG1030
+[90mPOST /api/map/search [32m200 [90m22ms - 4.79kb[0m
+9 Oct 16:02:23 - [32m[nodemon] restarting due to changes...[39m
+9 Oct 16:02:23 - [32m[nodemon] starting `node /srv/home/smdux1/MELTS---KnowlegdeMap/server.js`[39m
+9 Oct 16:02:23 - [32m[nodemon] restarting due to changes...[39m
+9 Oct 16:02:23 - [32m[nodemon] starting `node /srv/home/smdux1/MELTS---KnowlegdeMap/server.js`[39m
+App listening on 130.194.20.158:8000
+Connected to Mongoose DB
+[90mGET /map [32m200 [90m22ms - 2.65kb[0m
+Searched for:
+[90mPOST /api/map/search [32m200 [90m94ms - 26.72kb[0m
+Searched for:ENG1030
+[90mPOST /api/map/search [32m200 [90m20ms - 4.79kb[0m
+[90mGET /mod [36m302 [90m8ms - 82b[0m
+[90mGET /login [32m200 [90m6ms - 1.63kb[0m
+[90mPOST /login [36m302 [90m184ms - 86b[0m
+[90mGET /profile [32m200 [90m10ms - 1kb[0m
+[90mGET /mod [32m200 [90m4ms - 3.58kb[0m
+[90mGET /api/map [32m200 [90m60ms - 26.72kb[0m
+[90mGET /mod [32m200 [90m6ms - 4.37kb[0m
+[90mGET /api/map [36m304 [90m55ms[0m
+[90mGET /mod [32m200 [90m6ms - 4.82kb[0m
+[90mGET /api/map [36m304 [90m31ms[0m
+[90mGET /mod [36m304 [90m4ms[0m
+[90mGET /api/map [36m304 [90m40ms[0m
+[90mGET /mod [36m304 [90m3ms[0m
+[90mGET /api/map [36m304 [90m50ms[0m
+[90mGET /mod [32m200 [90m5ms - 4.73kb[0m
+[90mGET /api/map [36m304 [90m37ms[0m
+[90mGET /mod [32m200 [90m6ms - 4.11kb[0m
+[90mGET /api/map [36m304 [90m55ms[0m
+[90mGET /mod [32m200 [90m5ms - 4.13kb[0m
+[90mGET /api/map [36m304 [90m57ms[0m
+[90mGET /mod [32m200 [90m5ms - 4.13kb[0m
+[90mGET /api/map [36m304 [90m141ms[0m
+[90mGET /mod [32m200 [90m57ms - 4.13kb[0m
+[90mGET /api/map [36m304 [90m36ms[0m
+[90mGET /mod [32m200 [90m4ms - 4.15kb[0m
+[90mGET /api/map [36m304 [90m36ms[0m
+9 Oct 18:10:27 - [32m[nodemon] restarting due to changes...[39m
+9 Oct 18:10:27 - [32m[nodemon] starting `node /srv/home/smdux1/MELTS---KnowlegdeMap/server.js`[39m
+9 Oct 18:10:27 - [32m[nodemon] restarting due to changes...[39m
+9 Oct 18:10:28 - [32m[nodemon] restarting due to changes...[39m
+9 Oct 18:10:28 - [32m[nodemon] starting `node /srv/home/smdux1/MELTS---KnowlegdeMap/server.js`[39m
+App listening on 130.194.20.158:8000
+Connected to Mongoose DB
+9 Oct 18:12:46 - [32m[nodemon] restarting due to changes...[39m
+9 Oct 18:12:46 - [32m[nodemon] starting `node /srv/home/smdux1/MELTS---KnowlegdeMap/server.js`[39m
+9 Oct 18:12:46 - [32m[nodemon] restarting due to changes...[39m
+9 Oct 18:12:46 - [32m[nodemon] restarting due to changes...[39m
+9 Oct 18:12:46 - [32m[nodemon] starting `node /srv/home/smdux1/MELTS---KnowlegdeMap/server.js`[39m
+App listening on 130.194.20.158:8000
+Connected to Mongoose DB
+9 Oct 18:13:01 - [32m[nodemon] restarting due to changes...[39m
+9 Oct 18:13:01 - [32m[nodemon] starting `node /srv/home/smdux1/MELTS---KnowlegdeMap/server.js`[39m
+9 Oct 18:13:01 - [32m[nodemon] restarting due to changes...[39m
+9 Oct 18:13:01 - [32m[nodemon] restarting due to changes...[39m
+9 Oct 18:13:01 - [32m[nodemon] starting `node /srv/home/smdux1/MELTS---KnowlegdeMap/server.js`[39m
+App listening on 130.194.20.158:8000
+Connected to Mongoose DB
+[90mGET /mod [36m302 [90m20ms - 82b[0m
+[90mGET /login [32m200 [90m12ms - 1.63kb[0m
+[90mPOST /login [36m302 [90m176ms - 86b[0m
+[90mGET /profile [36m304 [90m9ms[0m
+[90mGET /mod [32m200 [90m8ms - 3.83kb[0m
+[90mGET /api/map [36m304 [90m77ms[0m
+[90mGET /mod [32m200 [90m6ms - 3.83kb[0m
+[90mGET /api/map [32m200 [90m58ms - 26.72kb[0m
+9 Oct 18:16:10 - [32m[nodemon] restarting due to changes...[39m
+9 Oct 18:16:10 - [32m[nodemon] starting `node /srv/home/smdux1/MELTS---KnowlegdeMap/server.js`[39m
+9 Oct 18:16:10 - [32m[nodemon] restarting due to changes...[39m
+9 Oct 18:16:10 - [32m[nodemon] restarting due to changes...[39m
+9 Oct 18:16:10 - [32m[nodemon] starting `node /srv/home/smdux1/MELTS---KnowlegdeMap/server.js`[39m
+App listening on 130.194.20.158:8000
+Connected to Mongoose DB
+9 Oct 18:16:28 - [32m[nodemon] restarting due to changes...[39m
+9 Oct 18:16:28 - [32m[nodemon] starting `node /srv/home/smdux1/MELTS---KnowlegdeMap/server.js`[39m
+9 Oct 18:16:28 - [32m[nodemon] restarting due to changes...[39m
+9 Oct 18:16:29 - [32m[nodemon] starting `node /srv/home/smdux1/MELTS---KnowlegdeMap/server.js`[39m
+App listening on 130.194.20.158:8000
+Connected to Mongoose DB
+[90mGET /mod [36m302 [90m20ms - 82b[0m
+[90mGET /login [32m200 [90m11ms - 1.63kb[0m
+[90mPOST /login [36m302 [90m173ms - 86b[0m
+[90mGET /profile [32m200 [90m8ms - 1kb[0m
+[90mGET /mod [32m200 [90m7ms - 3.83kb[0m
+[90mGET /api/map [32m200 [90m103ms - 26.72kb[0m
+9 Oct 18:21:22 - [32m[nodemon] restarting due to changes...[39m
+9 Oct 18:21:22 - [32m[nodemon] starting `node /srv/home/smdux1/MELTS---KnowlegdeMap/server.js`[39m
+9 Oct 18:21:23 - [32m[nodemon] restarting due to changes...[39m
+9 Oct 18:21:23 - [32m[nodemon] restarting due to changes...[39m
+9 Oct 18:21:23 - [32m[nodemon] starting `node /srv/home/smdux1/MELTS---KnowlegdeMap/server.js`[39m
+App listening on 130.194.20.158:8000
+Connected to Mongoose DB
+[90mGET /mod [36m302 [90m17ms - 82b[0m
+[90mGET /login [32m200 [90m9ms - 1.63kb[0m
+[90mPOST /login [36m302 [90m183ms - 86b[0m
+[90mGET /profile [32m200 [90m9ms - 1kb[0m
+[90mGET /mod [32m200 [90m8ms - 3.83kb[0m
+[90mGET /api/map [32m200 [90m59ms - 26.72kb[0m
+9 Oct 18:21:51 - [32m[nodemon] restarting due to changes...[39m
+9 Oct 18:21:51 - [32m[nodemon] starting `node /srv/home/smdux1/MELTS---KnowlegdeMap/server.js`[39m
+9 Oct 18:21:51 - [32m[nodemon] restarting due to changes...[39m
+9 Oct 18:21:52 - [32m[nodemon] starting `node /srv/home/smdux1/MELTS---KnowlegdeMap/server.js`[39m
+App listening on 130.194.20.158:8000
+Connected to Mongoose DB
+[90mGET /mod [36m302 [90m14ms - 82b[0m
+[90mGET /login [32m200 [90m11ms - 1.63kb[0m
+[90mPOST /login [36m302 [90m171ms - 86b[0m
+[90mGET /profile [32m200 [90m8ms - 1kb[0m
+[90mGET /mod [32m200 [90m7ms - 3.83kb[0m
+[90mGET /api/map [32m200 [90m105ms - 26.72kb[0m
+9 Oct 18:22:22 - [32m[nodemon] restarting due to changes...[39m
+9 Oct 18:22:22 - [32m[nodemon] starting `node /srv/home/smdux1/MELTS---KnowlegdeMap/server.js`[39m
+9 Oct 18:22:22 - [32m[nodemon] restarting due to changes...[39m
+9 Oct 18:22:22 - [32m[nodemon] restarting due to changes...[39m
+9 Oct 18:22:23 - [32m[nodemon] starting `node /srv/home/smdux1/MELTS---KnowlegdeMap/server.js`[39m
+App listening on 130.194.20.158:8000
+Connected to Mongoose DB
+[90mGET /mod [36m302 [90m20ms - 82b[0m
+[90mGET /login [32m200 [90m12ms - 1.63kb[0m
+[90mPOST /login [36m302 [90m181ms - 86b[0m
+[90mGET /profile [32m200 [90m10ms - 1kb[0m
+[90mGET /mod [32m200 [90m15ms - 3.83kb[0m
+[90mGET /api/map [32m200 [90m57ms - 26.72kb[0m
+9 Oct 18:40:06 - [32m[nodemon] restarting due to changes...[39m
+9 Oct 18:40:06 - [32m[nodemon] starting `node /srv/home/smdux1/MELTS---KnowlegdeMap/server.js`[39m
+9 Oct 18:40:06 - [32m[nodemon] restarting due to changes...[39m
+9 Oct 18:40:06 - [32m[nodemon] starting `node /srv/home/smdux1/MELTS---KnowlegdeMap/server.js`[39m
+App listening on 130.194.20.158:8000
+Connected to Mongoose DB
+9 Oct 18:42:22 - [32m[nodemon] restarting due to changes...[39m
+9 Oct 18:42:22 - [32m[nodemon] starting `node /srv/home/smdux1/MELTS---KnowlegdeMap/server.js`[39m
+9 Oct 18:42:22 - [32m[nodemon] restarting due to changes...[39m
+9 Oct 18:42:22 - [32m[nodemon] restarting due to changes...[39m
+9 Oct 18:42:22 - [32m[nodemon] starting `node /srv/home/smdux1/MELTS---KnowlegdeMap/server.js`[39m
+App listening on 130.194.20.158:8000
+Connected to Mongoose DB
+9 Oct 18:42:41 - [32m[nodemon] restarting due to changes...[39m
+9 Oct 18:42:41 - [32m[nodemon] starting `node /srv/home/smdux1/MELTS---KnowlegdeMap/server.js`[39m
+9 Oct 18:42:42 - [32m[nodemon] restarting due to changes...[39m
+9 Oct 18:42:42 - [32m[nodemon] restarting due to changes...[39m
+9 Oct 18:42:42 - [32m[nodemon] starting `node /srv/home/smdux1/MELTS---KnowlegdeMap/server.js`[39m
+App listening on 130.194.20.158:8000
+Connected to Mongoose DB
+12 Oct 21:35:35 - [33m[nodemon] v1.0.20[39m
+12 Oct 21:35:35 - [33m[nodemon] to restart at any time, enter `rs`[39m
+12 Oct 21:35:35 - [33m[nodemon] watching: *.*[39m
+12 Oct 21:35:35 - [32m[nodemon] starting `node /srv/home/smdux1/MELTS---KnowlegdeMap/server.js`[39m
+App listening on 130.194.20.158:8000
+Connected to Mongoose DB
+[90mGET / [32m200 [90m11ms - 830b[0m
+[90mGET /map [32m200 [90m4ms - 2.81kb[0m
+[90mPOST /api/map/search [31m500 [90m9ms - 1.27kb[0m
+[90mPOST /api/map/search [31m500 [90m3ms - 1.27kb[0m
+[90mPOST /api/map/search [31m500 [90m3ms - 1.27kb[0m
+[90mGET / [32m200 [90m2ms - 830b[0m
+[90mGET /mod [32m200 [90m2ms - 3.83kb[0m
+[90mGET /api/map [32m200 [90m105ms - 26.72kb[0m
+[90mGET /map [32m200 [90m2ms - 2.81kb[0m
+[90mPOST /api/map/search [31m500 [90m3ms - 1.27kb[0m

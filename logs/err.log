@@ -301,3 +301,101 @@ TypeError: Cannot call method 'split' of undefined
     at Context.actions.pass (/srv/home/smdux1/MELTS---KnowlegdeMap/node_modules/passport/lib/passport/context/http/actions.js:77:8)
     at /srv/home/smdux1/MELTS---KnowlegdeMap/node_modules/passport/lib/passport/strategies/session.js:61:12
     at pass (/srv/home/smdux1/MELTS---KnowlegdeMap/node_modules/passport/lib/passport/index.js:321:31)
+Error: ENOENT, stat './public/views/maodhtml'
+Error: ENOENT, stat './public/views/modhtml'
+
+events.js:72
+        throw er; // Unhandled 'error' event
+              ^
+Error: failed to connect to [localhost:27017]
+    at null.<anonymous> (/srv/home/smdux1/MELTS---KnowlegdeMap/node_modules/mongoose/node_modules/mongodb/lib/mongodb/connection/server.js:536:74)
+    at EventEmitter.emit (events.js:106:17)
+    at null.<anonymous> (/srv/home/smdux1/MELTS---KnowlegdeMap/node_modules/mongoose/node_modules/mongodb/lib/mongodb/connection/connection_pool.js:150:15)
+    at EventEmitter.emit (events.js:98:17)
+    at Socket.<anonymous> (/srv/home/smdux1/MELTS---KnowlegdeMap/node_modules/mongoose/node_modules/mongodb/lib/mongodb/connection/connection.js:516:10)
+    at Socket.EventEmitter.emit (events.js:95:17)
+    at net.js:440:14
+    at process._tickCallback (node.js:415:13)
+
+/srv/home/smdux1/MELTS---KnowlegdeMap/app/routes.js:97
+        map.find({data.title: req}, function (err, nodes) {
+                      ^
+SyntaxError: Unexpected token .
+    at Module._compile (module.js:439:25)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/srv/home/smdux1/MELTS---KnowlegdeMap/server.js:39:1)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+TypeError: Object function () {
+    var a = [];
+    for (var i=0, l=this.length; i<l; i++)
+        if (a.indexOf(this[i]) === -1)
+            a.push(this[i]);
+    return a;
+} has no method 'trim'
+    at /srv/home/smdux1/MELTS---KnowlegdeMap/app/routes.js:121:20
+    at callbacks (/srv/home/smdux1/MELTS---KnowlegdeMap/node_modules/express/lib/router/index.js:164:37)
+    at param (/srv/home/smdux1/MELTS---KnowlegdeMap/node_modules/express/lib/router/index.js:138:11)
+    at pass (/srv/home/smdux1/MELTS---KnowlegdeMap/node_modules/express/lib/router/index.js:145:5)
+    at Router._dispatch (/srv/home/smdux1/MELTS---KnowlegdeMap/node_modules/express/lib/router/index.js:173:5)
+    at Object.router (/srv/home/smdux1/MELTS---KnowlegdeMap/node_modules/express/lib/router/index.js:33:10)
+    at Context.next (/srv/home/smdux1/MELTS---KnowlegdeMap/node_modules/express/node_modules/connect/lib/proto.js:193:15)
+    at Context.actions.pass (/srv/home/smdux1/MELTS---KnowlegdeMap/node_modules/passport/lib/passport/context/http/actions.js:77:8)
+    at SessionStrategy.authenticate (/srv/home/smdux1/MELTS---KnowlegdeMap/node_modules/passport/lib/passport/strategies/session.js:67:10)
+    at attempt (/srv/home/smdux1/MELTS---KnowlegdeMap/node_modules/passport/lib/passport/middleware/authenticate.js:243:16)
+TypeError: Object function () {
+    var a = [];
+    for (var i=0, l=this.length; i<l; i++)
+        if (a.indexOf(this[i]) === -1)
+            a.push(this[i]);
+    return a;
+} has no method 'trim'
+    at /srv/home/smdux1/MELTS---KnowlegdeMap/app/routes.js:121:20
+    at callbacks (/srv/home/smdux1/MELTS---KnowlegdeMap/node_modules/express/lib/router/index.js:164:37)
+    at param (/srv/home/smdux1/MELTS---KnowlegdeMap/node_modules/express/lib/router/index.js:138:11)
+    at pass (/srv/home/smdux1/MELTS---KnowlegdeMap/node_modules/express/lib/router/index.js:145:5)
+    at Router._dispatch (/srv/home/smdux1/MELTS---KnowlegdeMap/node_modules/express/lib/router/index.js:173:5)
+    at Object.router (/srv/home/smdux1/MELTS---KnowlegdeMap/node_modules/express/lib/router/index.js:33:10)
+    at Context.next (/srv/home/smdux1/MELTS---KnowlegdeMap/node_modules/express/node_modules/connect/lib/proto.js:193:15)
+    at Context.actions.pass (/srv/home/smdux1/MELTS---KnowlegdeMap/node_modules/passport/lib/passport/context/http/actions.js:77:8)
+    at SessionStrategy.authenticate (/srv/home/smdux1/MELTS---KnowlegdeMap/node_modules/passport/lib/passport/strategies/session.js:67:10)
+    at attempt (/srv/home/smdux1/MELTS---KnowlegdeMap/node_modules/passport/lib/passport/middleware/authenticate.js:243:16)
+TypeError: Object function () {
+    var a = [];
+    for (var i=0, l=this.length; i<l; i++)
+        if (a.indexOf(this[i]) === -1)
+            a.push(this[i]);
+    return a;
+} has no method 'trim'
+    at /srv/home/smdux1/MELTS---KnowlegdeMap/app/routes.js:121:20
+    at callbacks (/srv/home/smdux1/MELTS---KnowlegdeMap/node_modules/express/lib/router/index.js:164:37)
+    at param (/srv/home/smdux1/MELTS---KnowlegdeMap/node_modules/express/lib/router/index.js:138:11)
+    at pass (/srv/home/smdux1/MELTS---KnowlegdeMap/node_modules/express/lib/router/index.js:145:5)
+    at Router._dispatch (/srv/home/smdux1/MELTS---KnowlegdeMap/node_modules/express/lib/router/index.js:173:5)
+    at Object.router (/srv/home/smdux1/MELTS---KnowlegdeMap/node_modules/express/lib/router/index.js:33:10)
+    at Context.next (/srv/home/smdux1/MELTS---KnowlegdeMap/node_modules/express/node_modules/connect/lib/proto.js:193:15)
+    at Context.actions.pass (/srv/home/smdux1/MELTS---KnowlegdeMap/node_modules/passport/lib/passport/context/http/actions.js:77:8)
+    at SessionStrategy.authenticate (/srv/home/smdux1/MELTS---KnowlegdeMap/node_modules/passport/lib/passport/strategies/session.js:67:10)
+    at attempt (/srv/home/smdux1/MELTS---KnowlegdeMap/node_modules/passport/lib/passport/middleware/authenticate.js:243:16)
+TypeError: Object function () {
+    var a = [];
+    for (var i=0, l=this.length; i<l; i++)
+        if (a.indexOf(this[i]) === -1)
+            a.push(this[i]);
+    return a;
+} has no method 'trim'
+    at /srv/home/smdux1/MELTS---KnowlegdeMap/app/routes.js:121:20
+    at callbacks (/srv/home/smdux1/MELTS---KnowlegdeMap/node_modules/express/lib/router/index.js:164:37)
+    at param (/srv/home/smdux1/MELTS---KnowlegdeMap/node_modules/express/lib/router/index.js:138:11)
+    at pass (/srv/home/smdux1/MELTS---KnowlegdeMap/node_modules/express/lib/router/index.js:145:5)
+    at Router._dispatch (/srv/home/smdux1/MELTS---KnowlegdeMap/node_modules/express/lib/router/index.js:173:5)
+    at Object.router (/srv/home/smdux1/MELTS---KnowlegdeMap/node_modules/express/lib/router/index.js:33:10)
+    at Context.next (/srv/home/smdux1/MELTS---KnowlegdeMap/node_modules/express/node_modules/connect/lib/proto.js:193:15)
+    at Context.actions.pass (/srv/home/smdux1/MELTS---KnowlegdeMap/node_modules/passport/lib/passport/context/http/actions.js:77:8)
+    at SessionStrategy.authenticate (/srv/home/smdux1/MELTS---KnowlegdeMap/node_modules/passport/lib/passport/strategies/session.js:67:10)
+    at attempt (/srv/home/smdux1/MELTS---KnowlegdeMap/node_modules/passport/lib/passport/middleware/authenticate.js:243:16)

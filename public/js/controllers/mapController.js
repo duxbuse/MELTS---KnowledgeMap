@@ -20,8 +20,13 @@ angular.module('mapController', [])
         // if form is empty, nothing will happen
         if ($scope.formData.title != undefined) {
 
+		
             // call the create function from our service (returns a promise object)
-            map.create($scope.formData)
+            map.create({
+				title: $scope.formData.title.toUpperCase().trim(),
+				unit: $scope.formData.unit.toUpperCase().trim(),
+				prerequisites: $scope.formData.prerequisites.toUpperCase().trim()
+			})
 
             // if successful creation, call our get function to get all the new nodes
             .success(function(data) {
@@ -40,4 +45,10 @@ angular.module('mapController', [])
             $scope.map = data; // assign our new list of nodes
         });
     };
+	
+	$scope.findNode = function(unit){
+		console.log(unit);
+	};
+	
+	
 });

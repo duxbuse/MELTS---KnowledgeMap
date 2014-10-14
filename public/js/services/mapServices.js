@@ -8,10 +8,10 @@ angular.module('mapService', [])
             return $http.get('/smdux1/api/map');
         },
         create : function(mapData) {
-            return $http.post('/smdux1/api/map', mapData);
+            return $http.post('/smdux1/api/mod', mapData);
         },
         delete : function(id) {
-        return $http.delete('/smdux1/api/map/' + id);
+        return $http.delete('/smdux1/api/mod/' + id);
     }
 }
          });
