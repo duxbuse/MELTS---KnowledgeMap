@@ -1,4 +1,4 @@
-MELTS---KnowlegdeMap
+MELTS---KnowledgeMap
 ====================
 
 Abstract:

@@ -1323,3 +1323,52 @@ Connected to Mongoose DB
 [90mGET /api/map [32m200 [90m105ms - 26.72kb[0m
 [90mGET /map [32m200 [90m2ms - 2.81kb[0m
 [90mPOST /api/map/search [31m500 [90m3ms - 1.27kb[0m
+14 Oct 23:29:46 - [33m[nodemon] v1.0.20[39m
+14 Oct 23:29:46 - [33m[nodemon] to restart at any time, enter `rs`[39m
+14 Oct 23:29:46 - [33m[nodemon] watching: *.*[39m
+14 Oct 23:29:46 - [32m[nodemon] starting `node /srv/home/smdux1/MELTS---KnowlegdeMap/server.js`[39m
+App listening on 130.194.20.158:8000
+Connected to Mongoose DB
+[90mGET / [32m200 [90m20ms - 830b[0m
+[90mGET /map [36m304 [90m13ms[0m
+Searched for: ''
+[90mPOST /api/map/search [32m200 [90m96ms - 26.72kb[0m
+[90mGET /map [32m200 [90m58ms - 2.81kb[0m
+Searched for: ''
+[90mPOST /api/map/search [32m200 [90m316ms - 26.72kb[0m
+Searched for: ''
+[90mPOST /api/map/search [32m200 [90m52ms - 26.72kb[0m
+Searched for: '`REACTIVE POWER'
+[90mPOST /api/map/search [32m200 [90m143ms - 991b[0m
+Searched for: ''
+[90mPOST /api/map/search [32m200 [90m50ms - 26.72kb[0m
+[90mGET /mod [32m200 [90m4ms - 3.94kb[0m
+[90mGET /api/map [32m200 [90m42ms - 26.72kb[0m
+[90mGET /template.csv? [32m200 [90m8ms - 99b[0m
+[90mGET /map [36m304 [90m2ms[0m
+Searched for: ''
+[90mPOST /api/map/search [32m200 [90m43ms - 26.72kb[0m
+Searched for: 'ENG1030'
+[90mPOST /api/map/search [32m200 [90m14ms - 4.79kb[0m
+Searched for: ''
+[90mPOST /api/map/search [32m200 [90m52ms - 26.72kb[0m
+[90mGET /mod [32m200 [90m4ms - 3.94kb[0m
+[90mGET / [32m200 [90m32ms - 830b[0m
+[90mGET / [36m304 [90m2ms[0m
+[90mGET /map [36m304 [90m1ms[0m
+Searched for: ''
+[90mPOST /api/map/search [32m200 [90m26ms - 26.72kb[0m
+[90mGET /mod [32m200 [90m2ms - 3.94kb[0m
+[90mGET /api/map [32m200 [90m56ms - 26.72kb[0m
+[90mGET /template.csv? [32m200 [90m3ms - 83b[0m
+15 Oct 22:01:08 - [32m[nodemon] restarting due to changes...[39m
+15 Oct 22:01:08 - [32m[nodemon] restarting due to changes...[39m
+15 Oct 22:01:08 - [32m[nodemon] starting `node /srv/home/smdux1/MELTS---KnowlegdeMap/server.js`[39m
+15 Oct 22:01:08 - [32m[nodemon] restarting due to changes...[39m
+15 Oct 22:01:08 - [32m[nodemon] starting `node /srv/home/smdux1/MELTS---KnowlegdeMap/server.js`[39m
+App listening on 130.194.20.158:8000
+Connected to Mongoose DB
+[90mGET / [36m304 [90m18ms[0m
+[90mGET /map [36m304 [90m6ms[0m
+Searched for: ''
+[90mPOST /api/map/search [32m200 [90m94ms - 26.72kb[0m
