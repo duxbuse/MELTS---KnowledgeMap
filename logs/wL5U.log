@@ -1,0 +1,37 @@
+13 Sep 14:40:59 - [33m[nodemon] v1.0.20[39m
+13 Sep 14:40:59 - [33m[nodemon] to restart at any time, enter `rs`[39m
+13 Sep 14:40:59 - [33m[nodemon] watching: *.*[39m
+13 Sep 14:40:59 - [32m[nodemon] starting `node /srv/home/smdux1/MELTS---KnowlegdeMap/server.js`[39m
+App listening on 130.194.20.158:8000
+Connected to Mongoose DB
+[90mGET / [32m200 [90m41ms - 867b[0m
+[90mGET /map [32m200 [90m27ms - 2.07kb[0m
+[90mGET /api/map [36m304 [90m150ms[0m
+15 Sep 14:15:41 - [32m[nodemon] restarting due to changes...[39m
+15 Sep 14:15:41 - [32m[nodemon] starting `node /srv/home/smdux1/MELTS---KnowlegdeMap/server.js`[39m
+15 Sep 14:15:41 - [32m[nodemon] restarting due to changes...[39m
+15 Sep 14:15:41 - [32m[nodemon] restarting due to changes...[39m
+15 Sep 14:15:41 - [32m[nodemon] restarting due to changes...[39m
+15 Sep 14:15:41 - [32m[nodemon] starting `node /srv/home/smdux1/MELTS---KnowlegdeMap/server.js`[39m
+App listening on 130.194.20.158:8000
+Connected to Mongoose DB
+15 Sep 14:27:59 - [32m[nodemon] restarting due to changes...[39m
+15 Sep 14:27:59 - [32m[nodemon] starting `node /srv/home/smdux1/MELTS---KnowlegdeMap/server.js`[39m
+15 Sep 14:27:59 - [32m[nodemon] restarting due to changes...[39m
+15 Sep 14:28:00 - [32m[nodemon] starting `node /srv/home/smdux1/MELTS---KnowlegdeMap/server.js`[39m
+
+/srv/home/smdux1/MELTS---KnowlegdeMap/app/routes.js:97
+        map.find({data.title: req}, function (err, nodes) {
+                      ^
+SyntaxError: Unexpected token .
+    at Module._compile (module.js:439:25)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/srv/home/smdux1/MELTS---KnowlegdeMap/server.js:39:1)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+15 Sep 14:28:00 - [31m[nodemon] app crashed - waiting for file changes before starting...[39m

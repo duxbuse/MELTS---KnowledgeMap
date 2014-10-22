@@ -1,0 +1,49 @@
+19 Oct 17:58:36 - [33m[nodemon] v1.0.20[39m
+19 Oct 17:58:36 - [33m[nodemon] to restart at any time, enter `rs`[39m
+19 Oct 17:58:36 - [33m[nodemon] watching: *.*[39m
+19 Oct 17:58:36 - [32m[nodemon] starting `node /srv/home/smdux1/MELTS---KnowlegdeMap/server.js`[39m
+App listening on 130.194.20.158:8000
+Connected to Mongoose DB
+[90mGET /map [36m304 [90m10ms[0m
+Searched for: ''
+[90mPOST /api/map/search [32m200 [90m98ms - 26.72kb[0m
+Searched for: ''
+[90mPOST /api/map/search [32m200 [90m111ms - 26.72kb[0m
+Searched for: '`CURRENT'
+[90mPOST /api/map/search [32m200 [90m13ms - 1.13kb[0m
+Searched for: '`OHMS LAW'
+[90mPOST /api/map/search [32m200 [90m10ms - 5.07kb[0m
+[90mGET / [32m200 [90m29ms - 830b[0m
+[90mGET /map [36m304 [90m3ms[0m
+Searched for: ''
+[90mPOST /api/map/search [32m200 [90m46ms - 26.72kb[0m
+[90mGET /login [32m200 [90m20ms - 1.63kb[0m
+[90mPOST /login [36m302 [90m165ms - 86b[0m
+[90mGET /profile [32m200 [90m24ms - 1kb[0m
+[90mGET /mod [32m200 [90m15ms - 3.94kb[0m
+[90mGET /api/map [32m200 [90m38ms - 26.72kb[0m
+[90mGET /map [36m304 [90m9ms[0m
+Searched for: ''
+[90mPOST /api/map/search [32m200 [90m45ms - 26.72kb[0m
+[90mGET /map [36m304 [90m3ms[0m
+Searched for: ''
+[90mPOST /api/map/search [32m200 [90m28ms - 26.72kb[0m
+[90mGET / [32m200 [90m4ms - 830b[0m
+[90mGET / [32m200 [90m4ms - 830b[0m
+[90mGET /map [32m200 [90m2ms - 2.81kb[0m
+Searched for: ''
+[90mPOST /api/map/search [32m200 [90m21ms - 26.72kb[0m
+Searched for: ''
+[90mPOST /api/map/search [32m200 [90m32ms - 26.72kb[0m
+Searched for: 'ENG1030'
+[90mPOST /api/map/search [32m200 [90m16ms - 4.79kb[0m
+Searched for: ''
+[90mPOST /api/map/search [32m200 [90m58ms - 26.72kb[0m
+Searched for: '`KCL'
+[90mPOST /api/map/search [32m200 [90m12ms - 1.3kb[0m
+[90mGET / [32m200 [90m4ms - 830b[0m
+[90mGET / [32m200 [90m102ms - 830b[0m
+[90mGET / [32m200 [90m2ms - 830b[0m
+[90mGET /map [32m200 [90m27ms - 2.81kb[0m
+Searched for: ''
+[90mPOST /api/map/search [32m200 [90m183ms - 26.72kb[0m

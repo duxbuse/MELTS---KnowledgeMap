@@ -1,0 +1,10 @@
+22 Oct 18:22:08 - [33m[nodemon] v1.0.20[39m
+22 Oct 18:22:08 - [33m[nodemon] to restart at any time, enter `rs`[39m
+22 Oct 18:22:08 - [33m[nodemon] watching: *.*[39m
+22 Oct 18:22:08 - [32m[nodemon] starting `node /srv/home/smdux1/MELTS---KnowlegdeMap/server.js`[39m
+App listening on 130.194.20.158:8000
+Connected to Mongoose DB
+[90mGET / [36m304 [90m15ms[0m
+[90mGET /map [36m304 [90m6ms[0m
+Searched for: ''
+[90mPOST /api/map/search [32m200 [90m99ms - 26.72kb[0m

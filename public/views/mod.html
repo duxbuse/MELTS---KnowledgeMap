@@ -1,0 +1,108 @@
+<!doctype html>
+
+<!-- ASSIGN OUR ANGULAR MODULE-->
+<html ng-app="meanMap">
+    <head>
+        <!-- META -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Optimize mobile viewport -->
+
+        <title>MeLTS - Knowledge Map</title>
+
+        <!-- Libraries -->
+        <script src="/smdux1/js/angular/angular.min.js"></script>
+		<script src="/smdux1/js/d3/d3.min.js"></script>
+		<script src="/smdux1/js/PapaParse/papaparse.min.js"></script>
+		<link rel="stylesheet" href="/smdux1/css/bootstrap.min.css">
+
+        <script src="/smdux1/js/controllers/mapController.js"></script> <!-- load up our controller -->
+        <script src="/smdux1/js/services/mapServices.js"></script> <!-- load our map service -->
+        <script src="/smdux1/js/mapInjector.js"></script> <!-- load our main application -->
+				
+		<style>
+
+		
+		</style>
+
+    </head>
+    <!-- SET THE CONTROLLER -->
+    <body>
+	<div class="wrapper">
+        <div ng-controller="mainController" class="container">
+
+            <!-- HEADER AND NODE COUNT -->
+            <div class="jumbotron text-center">
+                <h1>Nodes in Knowledge Map: <span class="label label-info">{{ map.length }}</span></h1>
+            </div>
+
+			<!-- INPUT FILES-->
+			<div style="padding-bottom: 50px;">
+				<input type="file" id="fileinput" accept=".csv"></input>
+				<script src="/smdux1/js/fileinput.js"></script>
+			
+				<form method="get" action="template.csv">
+				<button type="submit">Download Template</button>
+				</form>
+			</div>
+			
+			
+            <!-- FORM TO CREATE NODES -->
+            <div id="node-form" class="row">
+			
+                <div class="col-sm-8 col-sm-offset-2 text-center">
+                    <form name="inputForm">
+                        <div class="form-group">
+
+                            <!-- BIND THIS VALUE TO formData.text IN ANGULAR -->
+                            <input type="text" class="form-control input-lg text-center" placeholder="Title" ng-model="formData.title" name="title">
+							 <input type="text" class="form-control input-lg text-center" placeholder="Unit" ng-model="formData.unit" name="unit">
+                            <input type="text" class="form-control input-lg text-center" placeholder="Prerequisites (comma seperated)" ng-model="formData.prerequisites">
+                        </div>
+
+                        <!-- createNode() WILL CREATE NEW NODE -->
+                        <button type="submit" class="btn btn-primary btn-lg" ng-click="createNode()" Onclick="document.inputForm.title.focus();">Add</button>
+                    </form>
+                </div>
+            </div>
+
+			 <!-- MAP LIST -->
+            <div id="map-list" class="row">
+                <div class="col-sm-4 col-sm-offset-4">
+
+                    <div>
+                        <label class="checkbox">
+                            <input type="checkbox"><span class="label label-default">Example - Title</span>
+							<span class="label label-primary">Example - Unit</span>
+							</input>
+                        </label>
+
+						<label>
+							<span class="label label-success">Example - Prerequisites</span>
+						</label>
+                    
+                    <hr>
+                    <hr>
+
+                </div>
+                    <!-- LOOP OVER THE NODES IN $scope.map -->
+                    <div class="nodeDisplay" ng-repeat="node in map">
+                        <label class="checkbox">
+                            <input type="checkbox" ng-click="deleteNode(node._id)">
+							<span class="label label-default">{{ node.data.title }}</span>
+							<span class="label label-primary">{{ node.data.unit }}</span>
+							</input>
+                        </label>
+                    
+						<label ng-repeat="link in node.links">
+                            <span class="label label-success"> {{link.target}} </span>
+                        </label>
+
+                    </div>
+
+                </div>
+            </div>
+			
+        </div>		
+	</div>
+    </body>
+</html>

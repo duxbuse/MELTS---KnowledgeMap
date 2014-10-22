@@ -1,0 +1,2 @@
+#!/bin/bash
+forever start -p /srv/home/smdux1/MELTS---KnowlegdeMap/logs/ -o /srv/home/smdux1/MELTS---KnowlegdeMap/logs/out.log -e /srv/home/smdux1/MELTS---KnowlegdeMap/logs/err.log -a --minUptime 1000 --spinSleepTime 1000 --no-colors -c nodemon server.js

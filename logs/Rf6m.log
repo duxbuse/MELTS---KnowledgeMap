@@ -1,0 +1,48 @@
+17 Sep 00:19:15 - [33m[nodemon] v1.0.20[39m
+17 Sep 00:19:15 - [33m[nodemon] to restart at any time, enter `rs`[39m
+17 Sep 00:19:15 - [33m[nodemon] watching: *.*[39m
+17 Sep 00:19:15 - [32m[nodemon] starting `node /srv/home/smdux1/MELTS---KnowlegdeMap/server.js`[39m
+App listening on 130.194.20.158:8000
+Connected to Mongoose DB
+[90mGET / [32m200 [90m23ms - 867b[0m
+[90mGET /map [32m200 [90m8ms - 2.33kb[0m
+[90mGET /api/map [32m200 [90m44ms - 6.84kb[0m
+{ test: 'true' }
+{ test: 'true' }
+{ test: 'true' }
+{ test: 'true' }
+{ test: 'true' }
+{ test: 'true' }
+[90mPOST /api/map/search [32m200 [90m60030ms[0m
+[90mPOST /api/map/search [32m200 [90m60027ms[0m
+[90mPOST /api/map/search [32m200 [90m60026ms[0m
+[90mPOST /api/map/search [32m200 [90m60053ms[0m
+[90mPOST /api/map/search [32m200 [90m60000ms[0m
+[90mPOST /api/map/search [32m200 [90m60048ms[0m
+[90mGET / [32m200 [90m4ms - 867b[0m
+[90mGET /map [32m200 [90m3ms - 2.33kb[0m
+[90mGET /api/map [32m200 [90m31ms - 6.84kb[0m
+{ test: 'true' }
+{ test: 'true' }
+{ test: 'true' }
+[90mPOST /api/map/search [32m200 [90m60011ms[0m
+[90mPOST /api/map/search [32m200 [90m60001ms[0m
+[90mPOST /api/map/search [32m200 [90m60034ms[0m
+[90mGET / [32m200 [90m4ms - 867b[0m
+[90mGET / [32m200 [90m2ms - 867b[0m
+[90mGET / [36m304 [90m3ms[0m
+[90mGET / [32m200 [90m1ms - 867b[0m
+[90mGET / [36m304 [90m2ms[0m
+[90mGET / [32m200 [90m1ms - 867b[0m
+[90mGET /map [32m200 [90m12ms - 2.33kb[0m
+[90mGET /api/map [32m200 [90m34ms - 6.84kb[0m
+[90mGET / [32m200 [90m2ms - 867b[0m
+[90mGET / [32m200 [90m2ms - 867b[0m
+[90mGET / [32m200 [90m4ms - 867b[0m
+[90mGET / [32m200 [90m3ms - 867b[0m
+[90mGET / [32m200 [90m5ms - 867b[0m
+[90mGET / [32m200 [90m8ms - 867b[0m
+[90mGET / [32m200 [90m3ms - 867b[0m
+[90mGET / [36m304 [90m3ms[0m
+[90mGET /map [32m200 [90m15ms - 2.33kb[0m
+[90mGET /api/map [32m200 [90m30ms - 6.84kb[0m
