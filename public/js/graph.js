@@ -1,4 +1,5 @@
 var width = document.getElementById('graph1').offsetWidth;
+
 	
 var B = document.body,
     H = document.documentElement,
